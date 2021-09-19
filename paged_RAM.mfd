@@ -1,0 +1,443 @@
+MDF Database:  version 1.0
+MDF_INFO | paged_RAM | XC9572XL-5-VQ64
+MACROCELL | 0 | 2 | x_page_0
+ATTRIBUTES | 8651698 | 0
+INPUTS | 8 | c_page<0>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | hi_RAM_enable  | x_page_5/x_page_5_CLKF  | x_page_0/x_page_0_SETF  | $OpTx$FX_SC$15
+INPUTMC | 5 | 2 | 5 | 1 | 10 | 0 | 14 | 0 | 16 | 0 | 17
+INPUTP | 3 | 83 | 29 | 30
+EQ | 5 | 
+   x_page<0>.D = c_page<0> & !aq_mreq & aq_addr_HI<1> & 
+	aq_addr_HI<0> & hi_RAM_enable;
+   x_page<0>.CLK = x_page_5/x_page_5_CLKF;
+   x_page<0>.AP = x_page_0/x_page_0_SETF;
+   x_page<0>.AR = !x_page_0/x_page_0_SETF & $OpTx$FX_SC$15;
+
+MACROCELL | 0 | 7 | x_page_1
+ATTRIBUTES | 8651698 | 0
+INPUTS | 8 | c_page<1>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | hi_RAM_enable  | x_page_5/x_page_5_CLKF  | x_page_1/x_page_1_SETF  | $OpTx$FX_SC$15
+INPUTMC | 5 | 2 | 4 | 1 | 10 | 0 | 14 | 0 | 15 | 0 | 17
+INPUTP | 3 | 83 | 29 | 30
+EQ | 5 | 
+   x_page<1>.D = c_page<1> & !aq_mreq & aq_addr_HI<1> & 
+	aq_addr_HI<0> & hi_RAM_enable;
+   x_page<1>.CLK = x_page_5/x_page_5_CLKF;
+   x_page<1>.AP = x_page_1/x_page_1_SETF;
+   x_page<1>.AR = $OpTx$FX_SC$15 & !x_page_1/x_page_1_SETF;
+
+MACROCELL | 0 | 5 | x_page_2
+ATTRIBUTES | 8651698 | 0
+INPUTS | 8 | c_page<2>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | hi_RAM_enable  | x_page_5/x_page_5_CLKF  | x_page_2/x_page_2_SETF  | $OpTx$FX_SC$15
+INPUTMC | 5 | 2 | 3 | 1 | 10 | 0 | 14 | 1 | 17 | 0 | 17
+INPUTP | 3 | 83 | 29 | 30
+EQ | 5 | 
+   x_page<2>.D = c_page<2> & !aq_mreq & aq_addr_HI<1> & 
+	aq_addr_HI<0> & hi_RAM_enable;
+   x_page<2>.CLK = x_page_5/x_page_5_CLKF;
+   x_page<2>.AP = x_page_2/x_page_2_SETF;
+   x_page<2>.AR = $OpTx$FX_SC$15 & !x_page_2/x_page_2_SETF;
+
+MACROCELL | 0 | 4 | x_page_3
+ATTRIBUTES | 8651698 | 0
+INPUTS | 8 | c_page<3>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | hi_RAM_enable  | x_page_5/x_page_5_CLKF  | x_page_3/x_page_3_SETF  | $OpTx$FX_SC$15
+INPUTMC | 5 | 2 | 2 | 1 | 10 | 0 | 14 | 1 | 15 | 0 | 17
+INPUTP | 3 | 83 | 29 | 30
+EQ | 5 | 
+   x_page<3>.D = c_page<3> & !aq_mreq & aq_addr_HI<1> & 
+	aq_addr_HI<0> & hi_RAM_enable;
+   x_page<3>.CLK = x_page_5/x_page_5_CLKF;
+   x_page<3>.AP = x_page_3/x_page_3_SETF;
+   x_page<3>.AR = $OpTx$FX_SC$15 & !x_page_3/x_page_3_SETF;
+
+MACROCELL | 0 | 1 | x_page_4
+ATTRIBUTES | 8651698 | 0
+INPUTS | 8 | c_page<4>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | hi_RAM_enable  | x_page_5/x_page_5_CLKF  | x_page_4/x_page_4_SETF  | $OpTx$FX_SC$15
+INPUTMC | 5 | 2 | 1 | 1 | 10 | 0 | 14 | 1 | 13 | 0 | 17
+INPUTP | 3 | 83 | 29 | 30
+EQ | 5 | 
+   x_page<4>.D = c_page<4> & !aq_mreq & aq_addr_HI<1> & 
+	aq_addr_HI<0> & hi_RAM_enable;
+   x_page<4>.CLK = x_page_5/x_page_5_CLKF;
+   x_page<4>.AP = x_page_4/x_page_4_SETF;
+   x_page<4>.AR = $OpTx$FX_SC$15 & !x_page_4/x_page_4_SETF;
+
+MACROCELL | 1 | 16 | x_page_5
+ATTRIBUTES | 8651698 | 0
+INPUTS | 8 | c_page<5>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | hi_RAM_enable  | x_page_5/x_page_5_CLKF  | $OpTx$FX_SC$15  | x_page_5/x_page_5_RSTF
+INPUTMC | 5 | 2 | 0 | 1 | 10 | 0 | 14 | 0 | 17 | 1 | 12
+INPUTP | 3 | 83 | 29 | 30
+EQ | 5 | 
+   x_page<5>.D = c_page<5> & !aq_mreq & aq_addr_HI<1> & 
+	aq_addr_HI<0> & hi_RAM_enable;
+   x_page<5>.CLK = x_page_5/x_page_5_CLKF;
+   x_page<5>.AP = $OpTx$FX_SC$15 & !x_page_5/x_page_5_RSTF;
+   x_page<5>.AR = x_page_5/x_page_5_RSTF;
+
+MACROCELL | 2 | 17 | a_page<0>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 13 | aq_data<0>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 62 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   a_page<0>.D = aq_data<0>;
+   a_page<0>.CLK = !aq_wr & !aq_iorq;
+   a_page<0>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & !aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 16 | a_page<1>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 15
+INPUTS | 13 | aq_data<1>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 63 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   a_page<1>.D = aq_data<1>;
+   a_page<1>.CLK = !aq_wr & !aq_iorq;
+   a_page<1>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & !aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 15 | a_page<2>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 17
+INPUTS | 13 | aq_data<2>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 65 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   a_page<2>.D = aq_data<2>;
+   a_page<2>.CLK = !aq_wr & !aq_iorq;
+   a_page<2>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & !aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 14 | a_page<3>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 15
+INPUTS | 13 | aq_data<3>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 66 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   a_page<3>.D = aq_data<3>;
+   a_page<3>.CLK = !aq_wr & !aq_iorq;
+   a_page<3>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & !aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 13 | a_page<4>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 13
+INPUTS | 13 | aq_data<4>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 67 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   a_page<4>.D = aq_data<4>;
+   a_page<4>.CLK = !aq_wr & !aq_iorq;
+   a_page<4>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & !aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 12 | a_page<5>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 12
+INPUTS | 13 | aq_data<5>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 68 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   a_page<5>.D = aq_data<5>;
+   a_page<5>.CLK = !aq_wr & !aq_iorq;
+   a_page<5>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & !aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 11 | b_page<0>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 16
+INPUTS | 13 | aq_data<0>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 62 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   b_page<0>.D = aq_data<0>;
+   b_page<0>.CLK = !aq_wr & !aq_iorq;
+   b_page<0>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & !aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 10 | b_page<1>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 15
+INPUTS | 13 | aq_data<1>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 63 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   b_page<1>.D = aq_data<1>;
+   b_page<1>.CLK = !aq_wr & !aq_iorq;
+   b_page<1>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & !aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 9 | b_page<2>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 17
+INPUTS | 13 | aq_data<2>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 65 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   b_page<2>.D = aq_data<2>;
+   b_page<2>.CLK = !aq_wr & !aq_iorq;
+   b_page<2>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & !aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 8 | b_page<3>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 15
+INPUTS | 13 | aq_data<3>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 66 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   b_page<3>.D = aq_data<3>;
+   b_page<3>.CLK = !aq_wr & !aq_iorq;
+   b_page<3>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & !aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 7 | b_page<4>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 13
+INPUTS | 13 | aq_data<4>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 67 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   b_page<4>.D = aq_data<4>;
+   b_page<4>.CLK = !aq_wr & !aq_iorq;
+   b_page<4>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & !aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 6 | b_page<5>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 12
+INPUTS | 13 | aq_data<5>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 68 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   b_page<5>.D = aq_data<5>;
+   b_page<5>.CLK = !aq_wr & !aq_iorq;
+   b_page<5>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & !aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 5 | c_page<0>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 2
+INPUTS | 13 | aq_data<0>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 62 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   c_page<0>.D = aq_data<0>;
+   c_page<0>.CLK = !aq_wr & !aq_iorq;
+   c_page<0>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 4 | c_page<1>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 7
+INPUTS | 13 | aq_data<1>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 63 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   c_page<1>.D = aq_data<1>;
+   c_page<1>.CLK = !aq_wr & !aq_iorq;
+   c_page<1>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 3 | c_page<2>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 5
+INPUTS | 13 | aq_data<2>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 65 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   c_page<2>.D = aq_data<2>;
+   c_page<2>.CLK = !aq_wr & !aq_iorq;
+   c_page<2>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 2 | c_page<3>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 4
+INPUTS | 13 | aq_data<3>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 66 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   c_page<3>.D = aq_data<3>;
+   c_page<3>.CLK = !aq_wr & !aq_iorq;
+   c_page<3>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 1 | c_page<4>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 0 | 1
+INPUTS | 13 | aq_data<4>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 67 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   c_page<4>.D = aq_data<4>;
+   c_page<4>.CLK = !aq_wr & !aq_iorq;
+   c_page<4>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 2 | 0 | c_page<5>
+ATTRIBUTES | 8520544 | 0
+OUTPUTMC | 1 | 1 | 16
+INPUTS | 13 | aq_data<5>  | aq_wr  | aq_iorq  | aq_addr_LO<5>  | aq_addr_LO<2>  | aq_addr_LO<1>  | aq_addr_LO<0>  | aq_data<7>  | aq_data<6>  | aq_addr_LO<7>  | aq_addr_LO<6>  | aq_addr_LO<4>  | aq_addr_LO<3>
+INPUTP | 13 | 68 | 82 | 88 | 38 | 50 | 90 | 55 | 72 | 70 | 43 | 33 | 44 | 47
+EQ | 5 | 
+   c_page<5>.D = aq_data<5>;
+   c_page<5>.CLK = !aq_wr & !aq_iorq;
+   c_page<5>.CE = aq_addr_LO<5> & aq_addr_LO<2> & aq_addr_LO<1> & 
+	aq_addr_LO<0> & aq_data<7> & aq_data<6> & aq_addr_LO<7> & 
+	aq_addr_LO<6> & !aq_addr_LO<4> & !aq_addr_LO<3>;
+
+MACROCELL | 1 | 9 | c_ce_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 4 | hi_RAM_enable  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>
+INPUTMC | 1 | 1 | 10
+INPUTP | 3 | 83 | 29 | 30
+EQ | 2 | 
+   !c_ce = !hi_RAM_enable
+	# !aq_mreq & aq_addr_HI<1> & aq_addr_HI<0>;
+
+MACROCELL | 1 | 10 | hi_RAM_enable
+ATTRIBUTES | 8520480 | 0
+OUTPUTMC | 8 | 0 | 2 | 0 | 7 | 0 | 5 | 0 | 4 | 0 | 1 | 1 | 16 | 1 | 9 | 0 | 14
+INPUTS | 2 | aq_wr  | aq_iorq
+INPUTP | 2 | 82 | 88
+EQ | 2 | 
+   hi_RAM_enable.D = Vcc;
+   hi_RAM_enable.CLK = !aq_wr & !aq_iorq;
+
+MACROCELL | 1 | 14 | a_ce_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>
+INPUTP | 3 | 83 | 29 | 30
+EQ | 1 | 
+   !a_ce = !aq_mreq & !aq_addr_HI<1> & aq_addr_HI<0>;
+
+MACROCELL | 1 | 11 | b_ce_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 3 | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>
+INPUTP | 3 | 83 | 29 | 30
+EQ | 1 | 
+   !b_ce = !aq_mreq & aq_addr_HI<1> & !aq_addr_HI<0>;
+
+MACROCELL | 0 | 14 | x_page_5/x_page_5_CLKF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 6 | 0 | 2 | 0 | 7 | 0 | 5 | 0 | 4 | 0 | 1 | 1 | 16
+INPUTS | 4 | hi_RAM_enable  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>
+INPUTMC | 1 | 1 | 10
+INPUTP | 3 | 83 | 29 | 30
+EQ | 2 | 
+   x_page_5/x_page_5_CLKF = !hi_RAM_enable
+	# !aq_mreq & aq_addr_HI<1> & aq_addr_HI<0>;
+
+MACROCELL | 0 | 16 | x_page_0/x_page_0_SETF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 2
+INPUTS | 5 | a_page<0>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | b_page<0>
+INPUTMC | 2 | 2 | 17 | 2 | 11
+INPUTP | 3 | 83 | 29 | 30
+EQ | 4 | 
+   x_page_0/x_page_0_SETF = a_page<0> & !aq_mreq & !aq_addr_HI<1> & 
+	aq_addr_HI<0>
+	# b_page<0> & !aq_mreq & aq_addr_HI<1> & 
+	!aq_addr_HI<0>;
+
+MACROCELL | 0 | 17 | $OpTx$FX_SC$15
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 6 | 0 | 2 | 0 | 7 | 0 | 5 | 0 | 4 | 0 | 1 | 1 | 16
+INPUTS | 3 | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>
+INPUTP | 3 | 83 | 29 | 30
+EQ | 2 | 
+   $OpTx$FX_SC$15 = !aq_mreq & aq_addr_HI<1> & !aq_addr_HI<0>
+	# !aq_mreq & !aq_addr_HI<1> & aq_addr_HI<0>;
+
+MACROCELL | 0 | 15 | x_page_1/x_page_1_SETF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 7
+INPUTS | 5 | a_page<1>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | b_page<1>
+INPUTMC | 2 | 2 | 16 | 2 | 10
+INPUTP | 3 | 83 | 29 | 30
+EQ | 4 | 
+   x_page_1/x_page_1_SETF = a_page<1> & !aq_mreq & !aq_addr_HI<1> & 
+	aq_addr_HI<0>
+	# b_page<1> & !aq_mreq & aq_addr_HI<1> & 
+	!aq_addr_HI<0>;
+
+MACROCELL | 1 | 17 | x_page_2/x_page_2_SETF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 5
+INPUTS | 5 | a_page<2>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | b_page<2>
+INPUTMC | 2 | 2 | 15 | 2 | 9
+INPUTP | 3 | 83 | 29 | 30
+EQ | 4 | 
+   x_page_2/x_page_2_SETF = a_page<2> & !aq_mreq & !aq_addr_HI<1> & 
+	aq_addr_HI<0>
+	# b_page<2> & !aq_mreq & aq_addr_HI<1> & 
+	!aq_addr_HI<0>;
+
+MACROCELL | 1 | 15 | x_page_3/x_page_3_SETF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 4
+INPUTS | 5 | a_page<3>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | b_page<3>
+INPUTMC | 2 | 2 | 14 | 2 | 8
+INPUTP | 3 | 83 | 29 | 30
+EQ | 4 | 
+   x_page_3/x_page_3_SETF = a_page<3> & !aq_mreq & !aq_addr_HI<1> & 
+	aq_addr_HI<0>
+	# b_page<3> & !aq_mreq & aq_addr_HI<1> & 
+	!aq_addr_HI<0>;
+
+MACROCELL | 1 | 13 | x_page_4/x_page_4_SETF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 0 | 1
+INPUTS | 5 | a_page<4>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | b_page<4>
+INPUTMC | 2 | 2 | 13 | 2 | 7
+INPUTP | 3 | 83 | 29 | 30
+EQ | 4 | 
+   x_page_4/x_page_4_SETF = a_page<4> & !aq_mreq & !aq_addr_HI<1> & 
+	aq_addr_HI<0>
+	# b_page<4> & !aq_mreq & aq_addr_HI<1> & 
+	!aq_addr_HI<0>;
+
+MACROCELL | 1 | 12 | x_page_5/x_page_5_RSTF
+ATTRIBUTES | 133888 | 0
+OUTPUTMC | 1 | 1 | 16
+INPUTS | 5 | a_page<5>  | aq_mreq  | aq_addr_HI<1>  | aq_addr_HI<0>  | b_page<5>
+INPUTMC | 2 | 2 | 12 | 2 | 6
+INPUTP | 3 | 83 | 29 | 30
+EQ | 4 | 
+   x_page_5/x_page_5_RSTF = !a_page<5> & !aq_mreq & !aq_addr_HI<1> & 
+	aq_addr_HI<0>
+	# !b_page<5> & !aq_mreq & aq_addr_HI<1> & 
+	!aq_addr_HI<0>;
+
+PIN | aq_addr_LO<5> | 64 | 0 | N/A | 38 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_addr_LO<2> | 64 | 0 | N/A | 50 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_addr_LO<1> | 64 | 0 | N/A | 90 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_addr_LO<0> | 64 | 0 | N/A | 55 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_addr_HI<0> | 64 | 0 | N/A | 30 | 17 | 0 | 2 | 0 | 7 | 0 | 5 | 0 | 4 | 0 | 1 | 1 | 16 | 1 | 9 | 1 | 14 | 1 | 11 | 0 | 14 | 0 | 16 | 0 | 17 | 0 | 15 | 1 | 17 | 1 | 15 | 1 | 13 | 1 | 12
+PIN | aq_addr_HI<1> | 64 | 0 | N/A | 29 | 17 | 0 | 2 | 0 | 7 | 0 | 5 | 0 | 4 | 0 | 1 | 1 | 16 | 1 | 9 | 1 | 14 | 1 | 11 | 0 | 14 | 0 | 16 | 0 | 17 | 0 | 15 | 1 | 17 | 1 | 15 | 1 | 13 | 1 | 12
+PIN | aq_mreq | 64 | 0 | N/A | 83 | 17 | 0 | 2 | 0 | 7 | 0 | 5 | 0 | 4 | 0 | 1 | 1 | 16 | 1 | 9 | 1 | 14 | 1 | 11 | 0 | 14 | 0 | 16 | 0 | 17 | 0 | 15 | 1 | 17 | 1 | 15 | 1 | 13 | 1 | 12
+PIN | aq_data<7> | 64 | 0 | N/A | 72 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_data<6> | 64 | 0 | N/A | 70 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_data<0> | 64 | 0 | N/A | 62 | 3 | 2 | 17 | 2 | 11 | 2 | 5
+PIN | aq_iorq | 64 | 0 | N/A | 88 | 19 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0 | 1 | 10
+PIN | aq_wr | 64 | 0 | N/A | 82 | 19 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0 | 1 | 10
+PIN | aq_addr_LO<3> | 64 | 0 | N/A | 47 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_addr_LO<4> | 64 | 0 | N/A | 44 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_addr_LO<6> | 64 | 0 | N/A | 33 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_addr_LO<7> | 64 | 0 | N/A | 43 | 18 | 2 | 17 | 2 | 16 | 2 | 15 | 2 | 14 | 2 | 13 | 2 | 12 | 2 | 11 | 2 | 10 | 2 | 9 | 2 | 8 | 2 | 7 | 2 | 6 | 2 | 5 | 2 | 4 | 2 | 3 | 2 | 2 | 2 | 1 | 2 | 0
+PIN | aq_data<1> | 64 | 0 | N/A | 63 | 3 | 2 | 16 | 2 | 10 | 2 | 4
+PIN | aq_data<2> | 64 | 0 | N/A | 65 | 3 | 2 | 15 | 2 | 9 | 2 | 3
+PIN | aq_data<3> | 64 | 0 | N/A | 66 | 3 | 2 | 14 | 2 | 8 | 2 | 2
+PIN | aq_data<4> | 64 | 0 | N/A | 67 | 3 | 2 | 13 | 2 | 7 | 2 | 1
+PIN | aq_data<5> | 64 | 0 | N/A | 68 | 3 | 2 | 12 | 2 | 6 | 2 | 0
+PIN | x_page<0> | 536871040 | 0 | N/A | 16
+PIN | x_page<1> | 536871040 | 0 | N/A | 15
+PIN | x_page<2> | 536871040 | 0 | N/A | 13
+PIN | x_page<3> | 536871040 | 0 | N/A | 12
+PIN | x_page<4> | 536871040 | 0 | N/A | 11
+PIN | x_page<5> | 536871040 | 0 | N/A | 10
+PIN | c_ce | 536871040 | 0 | N/A | 1
+PIN | a_ce | 536871040 | 0 | N/A | 9
+PIN | b_ce | 536871040 | 0 | N/A | 5

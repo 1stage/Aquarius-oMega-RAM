@@ -1,0 +1,214 @@
+<html><head><link type='text/css' href='style.css' rel='stylesheet'></head><body class='pgBgnd'>
+<h3 align='center'>Equations</h3>
+<table width='90%' align='center' border='1' cellpadding='0' cellspacing='0'>
+<tr><td>
+</td></tr><tr><td>
+********** Mapped Logic **********
+</td></tr><tr><td>
+</td></tr><tr><td>
+$OpTx$FX_SC$15 <= ((NOT aq_mreq AND aq_addr_HI(1) AND NOT aq_addr_HI(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT aq_mreq AND NOT aq_addr_HI(1) AND aq_addr_HI(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+a_ce <= NOT ((NOT aq_mreq AND NOT aq_addr_HI(1) AND aq_addr_HI(0)));
+</td></tr><tr><td>
+FDCPE_a_page0: FDCPE port map (a_page(0),aq_data(0),a_page_C(0),'0','0',a_page_CE(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_C(0) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_CE(0) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND NOT aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_a_page1: FDCPE port map (a_page(1),aq_data(1),a_page_C(1),'0','0',a_page_CE(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_C(1) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_CE(1) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND NOT aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_a_page2: FDCPE port map (a_page(2),aq_data(2),a_page_C(2),'0','0',a_page_CE(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_C(2) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_CE(2) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND NOT aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_a_page3: FDCPE port map (a_page(3),aq_data(3),a_page_C(3),'0','0',a_page_CE(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_C(3) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_CE(3) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND NOT aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_a_page4: FDCPE port map (a_page(4),aq_data(4),a_page_C(4),'0','0',a_page_CE(4));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_C(4) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_CE(4) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND NOT aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_a_page5: FDCPE port map (a_page(5),aq_data(5),a_page_C(5),'0','0',a_page_CE(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_C(5) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a_page_CE(5) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND NOT aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+b_ce <= NOT ((NOT aq_mreq AND aq_addr_HI(1) AND NOT aq_addr_HI(0)));
+</td></tr><tr><td>
+FDCPE_b_page0: FDCPE port map (b_page(0),aq_data(0),b_page_C(0),'0','0',b_page_CE(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_C(0) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_CE(0) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND NOT aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_b_page1: FDCPE port map (b_page(1),aq_data(1),b_page_C(1),'0','0',b_page_CE(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_C(1) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_CE(1) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND NOT aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_b_page2: FDCPE port map (b_page(2),aq_data(2),b_page_C(2),'0','0',b_page_CE(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_C(2) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_CE(2) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND NOT aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_b_page3: FDCPE port map (b_page(3),aq_data(3),b_page_C(3),'0','0',b_page_CE(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_C(3) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_CE(3) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND NOT aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_b_page4: FDCPE port map (b_page(4),aq_data(4),b_page_C(4),'0','0',b_page_CE(4));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_C(4) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_CE(4) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND NOT aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_b_page5: FDCPE port map (b_page(5),aq_data(5),b_page_C(5),'0','0',b_page_CE(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_C(5) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b_page_CE(5) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND NOT aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+</td></tr><tr><td>
+c_ce <= NOT (((NOT hi_RAM_enable)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT aq_mreq AND aq_addr_HI(1) AND aq_addr_HI(0))));
+</td></tr><tr><td>
+FDCPE_c_page0: FDCPE port map (c_page(0),aq_data(0),c_page_C(0),'0','0',c_page_CE(0));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_C(0) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_CE(0) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_c_page1: FDCPE port map (c_page(1),aq_data(1),c_page_C(1),'0','0',c_page_CE(1));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_C(1) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_CE(1) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_c_page2: FDCPE port map (c_page(2),aq_data(2),c_page_C(2),'0','0',c_page_CE(2));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_C(2) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_CE(2) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_c_page3: FDCPE port map (c_page(3),aq_data(3),c_page_C(3),'0','0',c_page_CE(3));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_C(3) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_CE(3) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_c_page4: FDCPE port map (c_page(4),aq_data(4),c_page_C(4),'0','0',c_page_CE(4));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_C(4) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_CE(4) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_c_page5: FDCPE port map (c_page(5),aq_data(5),c_page_C(5),'0','0',c_page_CE(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_C(5) <= (NOT aq_wr AND NOT aq_iorq);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c_page_CE(5) <= (aq_addr_LO(5) AND aq_addr_LO(2) AND aq_addr_LO(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(0) AND aq_data(7) AND aq_data(6) AND aq_addr_LO(7) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_LO(6) AND NOT aq_addr_LO(4) AND NOT aq_addr_LO(3));
+</td></tr><tr><td>
+FDCPE_hi_RAM_enable: FDCPE port map (hi_RAM_enable,'1',hi_RAM_enable_C,'0','0');
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hi_RAM_enable_C <= (NOT aq_wr AND NOT aq_iorq);
+</td></tr><tr><td>
+FDCPE_x_page0: FDCPE port map (x_page(0),x_page_D(0),x_page_5/x_page_5_CLKF,x_page_CLR(0),x_page_0/x_page_0_SETF);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_D(0) <= (c_page(0) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0) AND hi_RAM_enable);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_CLR(0) <= (NOT x_page_0/x_page_0_SETF AND $OpTx$FX_SC$15);
+</td></tr><tr><td>
+FDCPE_x_page1: FDCPE port map (x_page(1),x_page_D(1),x_page_5/x_page_5_CLKF,x_page_CLR(1),x_page_1/x_page_1_SETF);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_D(1) <= (c_page(1) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0) AND hi_RAM_enable);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_CLR(1) <= ($OpTx$FX_SC$15 AND NOT x_page_1/x_page_1_SETF);
+</td></tr><tr><td>
+FDCPE_x_page2: FDCPE port map (x_page(2),x_page_D(2),x_page_5/x_page_5_CLKF,x_page_CLR(2),x_page_2/x_page_2_SETF);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_D(2) <= (c_page(2) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0) AND hi_RAM_enable);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_CLR(2) <= ($OpTx$FX_SC$15 AND NOT x_page_2/x_page_2_SETF);
+</td></tr><tr><td>
+FDCPE_x_page3: FDCPE port map (x_page(3),x_page_D(3),x_page_5/x_page_5_CLKF,x_page_CLR(3),x_page_3/x_page_3_SETF);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_D(3) <= (c_page(3) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0) AND hi_RAM_enable);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_CLR(3) <= ($OpTx$FX_SC$15 AND NOT x_page_3/x_page_3_SETF);
+</td></tr><tr><td>
+FDCPE_x_page4: FDCPE port map (x_page(4),x_page_D(4),x_page_5/x_page_5_CLKF,x_page_CLR(4),x_page_4/x_page_4_SETF);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_D(4) <= (c_page(4) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0) AND hi_RAM_enable);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_CLR(4) <= ($OpTx$FX_SC$15 AND NOT x_page_4/x_page_4_SETF);
+</td></tr><tr><td>
+FDCPE_x_page5: FDCPE port map (x_page(5),x_page_D(5),x_page_5/x_page_5_CLKF,x_page_5/x_page_5_RSTF,x_page_PRE(5));
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_D(5) <= (c_page(5) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0) AND hi_RAM_enable);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;x_page_PRE(5) <= ($OpTx$FX_SC$15 AND NOT x_page_5/x_page_5_RSTF);
+</td></tr><tr><td>
+</td></tr><tr><td>
+x_page_0/x_page_0_SETF <= ((a_page(0) AND NOT aq_mreq AND NOT aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b_page(0) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT aq_addr_HI(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+x_page_1/x_page_1_SETF <= ((a_page(1) AND NOT aq_mreq AND NOT aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b_page(1) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT aq_addr_HI(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+x_page_2/x_page_2_SETF <= ((a_page(2) AND NOT aq_mreq AND NOT aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b_page(2) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT aq_addr_HI(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+x_page_3/x_page_3_SETF <= ((a_page(3) AND NOT aq_mreq AND NOT aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b_page(3) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT aq_addr_HI(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+x_page_4/x_page_4_SETF <= ((a_page(4) AND NOT aq_mreq AND NOT aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (b_page(4) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT aq_addr_HI(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+x_page_5/x_page_5_CLKF <= ((NOT hi_RAM_enable)
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT aq_mreq AND aq_addr_HI(1) AND aq_addr_HI(0)));
+</td></tr><tr><td>
+</td></tr><tr><td>
+x_page_5/x_page_5_RSTF <= ((NOT a_page(5) AND NOT aq_mreq AND NOT aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	aq_addr_HI(0))
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	OR (NOT b_page(5) AND NOT aq_mreq AND aq_addr_HI(1) AND 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	NOT aq_addr_HI(0)));
+</td></tr><tr><td>
+Register Legend:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FDCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FTCPE (Q,D,C,CLR,PRE,CE); 
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LDCP  (Q,D,G,CLR,PRE); 
+</td></tr><tr><td>
+</td></tr>
+</table>
+<form><span class="pgRef"><table width="90%" align="center"><tr>
+<td align="left"><input type="button" onclick="javascript:parent.leftnav.showTop()" onmouseover="window.status='goto top of page'; return true;" onmouseout="window.status=''" value="back to top"></td>
+<td align="right"><input type="button" onclick="window.print()" onmouseover="window.status='print page'; return true;" onmouseout="window.status=''" value="print page"></td>
+</tr></table></span></form>
+</body></html>

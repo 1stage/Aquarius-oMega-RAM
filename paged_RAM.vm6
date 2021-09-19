@@ -1,0 +1,2586 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xc9500xl | 9572XL64 | XC9572XL-5-VQ64
+
+DEVICE | 9572XL | 9572XL64 | 
+
+NETWORK | paged_RAM | 0 | 0 | 16391
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_5_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<5> | 2110 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_2_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<2> | 2111 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_1_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<1> | 2112 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_0_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<0> | 2113 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_HI_0_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_HI<0> | 2126 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_HI_1_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_HI<1> | 2125 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_mreq_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_mreq | 2122 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | x_page_0 | paged_RAM_COPY_0_COPY_0 | 2155873280 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<0> | 2074 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<0>.Q | c_page<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_0/x_page_0_SETF.UIM | 2103 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_0/x_page_0_SETF.Q | x_page_0/x_page_0_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | x_page_0 | 2048 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_0.Q | x_page_0 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | x_page_0.SI | x_page_0 | 0 | 8 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<0> | 2074 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<0>.Q | c_page<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_0/x_page_0_SETF.UIM | 2103 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_0/x_page_0_SETF.Q | x_page_0/x_page_0_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_0.D1 | 2132 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_0.D2 | 2133 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | c_page<0> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF | IV_TRUE | hi_RAM_enable
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | x_page_0.CLKF | 2134 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+OUTPUT_NODE_TYPE | 5 | 9 | MC_SI_SETF
+SIGNAL | NODE | x_page_0.SETF | 2135 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_0/x_page_0_SETF.UIM
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | x_page_0.RSTF | 2136 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | x_page_0/x_page_0_SETF.UIM | IV_TRUE | $OpTx$FX_SC$15.UIM
+
+SRFF_INSTANCE | x_page_0.REG | x_page_0 | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_0.D | 2131 | ? | 0 | 0 | x_page_0 | NULL | NULL | x_page_0.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | x_page_0.CLKF | 2134 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+SIGNAL | NODE | x_page_0.SETF | 2135 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_0/x_page_0_SETF.UIM
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | x_page_0.RSTF | 2136 | ? | 0 | 4096 | x_page_0 | NULL | NULL | x_page_0.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_FALSE | x_page_0/x_page_0_SETF.UIM | IV_TRUE | $OpTx$FX_SC$15.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_0.Q | 2137 | ? | 0 | 0 | x_page_0 | NULL | NULL | x_page_0.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | x_page_1 | paged_RAM_COPY_0_COPY_0 | 2155873280 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<1> | 2075 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<1>.Q | c_page<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_1/x_page_1_SETF.UIM | 2105 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_1/x_page_1_SETF.Q | x_page_1/x_page_1_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | x_page_1 | 2049 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_1.Q | x_page_1 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | x_page_1.SI | x_page_1 | 0 | 8 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<1> | 2075 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<1>.Q | c_page<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_1/x_page_1_SETF.UIM | 2105 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_1/x_page_1_SETF.Q | x_page_1/x_page_1_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_1.D1 | 2139 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_1.D2 | 2140 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | c_page<1> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF | IV_TRUE | hi_RAM_enable
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | x_page_1.CLKF | 2141 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+OUTPUT_NODE_TYPE | 5 | 9 | MC_SI_SETF
+SIGNAL | NODE | x_page_1.SETF | 2142 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_1/x_page_1_SETF.UIM
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | x_page_1.RSTF | 2143 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_1/x_page_1_SETF.UIM
+
+SRFF_INSTANCE | x_page_1.REG | x_page_1 | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_1.D | 2138 | ? | 0 | 0 | x_page_1 | NULL | NULL | x_page_1.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | x_page_1.CLKF | 2141 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+SIGNAL | NODE | x_page_1.SETF | 2142 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_1/x_page_1_SETF.UIM
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | x_page_1.RSTF | 2143 | ? | 0 | 4096 | x_page_1 | NULL | NULL | x_page_1.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_1/x_page_1_SETF.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_1.Q | 2144 | ? | 0 | 0 | x_page_1 | NULL | NULL | x_page_1.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | x_page_2 | paged_RAM_COPY_0_COPY_0 | 2155873280 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<2> | 2076 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<2>.Q | c_page<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_2/x_page_2_SETF.UIM | 2106 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_2/x_page_2_SETF.Q | x_page_2/x_page_2_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | x_page_2 | 2050 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_2.Q | x_page_2 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | x_page_2.SI | x_page_2 | 0 | 8 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<2> | 2076 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<2>.Q | c_page<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_2/x_page_2_SETF.UIM | 2106 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_2/x_page_2_SETF.Q | x_page_2/x_page_2_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_2.D1 | 2146 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_2.D2 | 2147 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | c_page<2> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF | IV_TRUE | hi_RAM_enable
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | x_page_2.CLKF | 2148 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+OUTPUT_NODE_TYPE | 5 | 9 | MC_SI_SETF
+SIGNAL | NODE | x_page_2.SETF | 2149 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_2/x_page_2_SETF.UIM
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | x_page_2.RSTF | 2150 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_2/x_page_2_SETF.UIM
+
+SRFF_INSTANCE | x_page_2.REG | x_page_2 | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_2.D | 2145 | ? | 0 | 0 | x_page_2 | NULL | NULL | x_page_2.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | x_page_2.CLKF | 2148 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+SIGNAL | NODE | x_page_2.SETF | 2149 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_2/x_page_2_SETF.UIM
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | x_page_2.RSTF | 2150 | ? | 0 | 4096 | x_page_2 | NULL | NULL | x_page_2.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_2/x_page_2_SETF.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_2.Q | 2151 | ? | 0 | 0 | x_page_2 | NULL | NULL | x_page_2.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | x_page_3 | paged_RAM_COPY_0_COPY_0 | 2155873280 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<3> | 2077 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<3>.Q | c_page<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_3/x_page_3_SETF.UIM | 2107 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_3/x_page_3_SETF.Q | x_page_3/x_page_3_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | x_page_3 | 2051 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_3.Q | x_page_3 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | x_page_3.SI | x_page_3 | 0 | 8 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<3> | 2077 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<3>.Q | c_page<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_3/x_page_3_SETF.UIM | 2107 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_3/x_page_3_SETF.Q | x_page_3/x_page_3_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_3.D1 | 2153 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_3.D2 | 2154 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | c_page<3> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF | IV_TRUE | hi_RAM_enable
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | x_page_3.CLKF | 2155 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+OUTPUT_NODE_TYPE | 5 | 9 | MC_SI_SETF
+SIGNAL | NODE | x_page_3.SETF | 2156 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_3/x_page_3_SETF.UIM
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | x_page_3.RSTF | 2157 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_3/x_page_3_SETF.UIM
+
+SRFF_INSTANCE | x_page_3.REG | x_page_3 | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_3.D | 2152 | ? | 0 | 0 | x_page_3 | NULL | NULL | x_page_3.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | x_page_3.CLKF | 2155 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+SIGNAL | NODE | x_page_3.SETF | 2156 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_3/x_page_3_SETF.UIM
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | x_page_3.RSTF | 2157 | ? | 0 | 4096 | x_page_3 | NULL | NULL | x_page_3.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_3/x_page_3_SETF.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_3.Q | 2158 | ? | 0 | 0 | x_page_3 | NULL | NULL | x_page_3.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | x_page_4 | paged_RAM_COPY_0_COPY_0 | 2155873280 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<4> | 2078 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<4>.Q | c_page<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_4/x_page_4_SETF.UIM | 2108 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_4/x_page_4_SETF.Q | x_page_4/x_page_4_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | x_page_4 | 2052 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_4.Q | x_page_4 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | x_page_4.SI | x_page_4 | 0 | 8 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<4> | 2078 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<4>.Q | c_page<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_4/x_page_4_SETF.UIM | 2108 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_4/x_page_4_SETF.Q | x_page_4/x_page_4_SETF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_4.D1 | 2160 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_4.D2 | 2161 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | c_page<4> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF | IV_TRUE | hi_RAM_enable
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | x_page_4.CLKF | 2162 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+OUTPUT_NODE_TYPE | 5 | 9 | MC_SI_SETF
+SIGNAL | NODE | x_page_4.SETF | 2163 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_4/x_page_4_SETF.UIM
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | x_page_4.RSTF | 2164 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_4/x_page_4_SETF.UIM
+
+SRFF_INSTANCE | x_page_4.REG | x_page_4 | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_4.D | 2159 | ? | 0 | 0 | x_page_4 | NULL | NULL | x_page_4.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | x_page_4.CLKF | 2162 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+SIGNAL | NODE | x_page_4.SETF | 2163 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 1 | IV_TRUE | x_page_4/x_page_4_SETF.UIM
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | x_page_4.RSTF | 2164 | ? | 0 | 4096 | x_page_4 | NULL | NULL | x_page_4.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_4/x_page_4_SETF.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_4.Q | 2165 | ? | 0 | 0 | x_page_4 | NULL | NULL | x_page_4.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | x_page_5 | paged_RAM_COPY_0_COPY_0 | 2155873280 | 8 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<5> | 2079 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<5>.Q | c_page<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_RSTF.UIM | 2109 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_RSTF.Q | x_page_5/x_page_5_RSTF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | x_page_5 | 2053 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5.Q | x_page_5 | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | x_page_5.SI | x_page_5 | 0 | 8 | 5
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | c_page<5> | 2079 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<5>.Q | c_page<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | x_page_5/x_page_5_RSTF.UIM | 2109 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_RSTF.Q | x_page_5/x_page_5_RSTF | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_5.D1 | 2167 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_5.D2 | 2168 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 5 | IV_TRUE | c_page<5> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF | IV_TRUE | hi_RAM_enable
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | x_page_5.CLKF | 2169 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+OUTPUT_NODE_TYPE | 5 | 9 | MC_SI_SETF
+SIGNAL | NODE | x_page_5.SETF | 2170 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_5/x_page_5_RSTF.UIM
+OUTPUT_NODE_TYPE | 6 | 9 | MC_SI_RSTF
+SIGNAL | NODE | x_page_5.RSTF | 2171 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_RSTF.UIM
+
+SRFF_INSTANCE | x_page_5.REG | x_page_5 | 0 | 4 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_5.D | 2166 | ? | 0 | 0 | x_page_5 | NULL | NULL | x_page_5.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | x_page_5.CLKF | 2169 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_CLKF.UIM
+INPUT_NODE_TYPE | 2 | 8 | SRFF_S
+SIGNAL | NODE | x_page_5.SETF | 2170 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 5 | 9 | MC_SI_SETF
+SPPTERM | 2 | IV_TRUE | $OpTx$FX_SC$15.UIM | IV_FALSE | x_page_5/x_page_5_RSTF.UIM
+INPUT_NODE_TYPE | 3 | 8 | SRFF_R
+SIGNAL | NODE | x_page_5.RSTF | 2171 | ? | 0 | 4096 | x_page_5 | NULL | NULL | x_page_5.SI | 6 | 9 | MC_SI_RSTF
+SPPTERM | 1 | IV_TRUE | x_page_5/x_page_5_RSTF.UIM
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_5.Q | 2172 | ? | 0 | 0 | x_page_5 | NULL | NULL | x_page_5.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_7_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<7> | 2114 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_6_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<6> | 2115 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_0_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<0> | 2116 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_0_IBUF | 2056 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_0_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_iorq_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_iorq | 2124 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_wr_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_wr | 2123 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_3_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<3> | 2130 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_4_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<4> | 2129 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_6_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<6> | 2128 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_addr_LO_7_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_addr_LO<7> | 2127 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | a_page<0> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_0_IBUF | 2056 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | a_page<0> | 2057 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<0>.Q | a_page<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | a_page<0>.SI | a_page<0> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_0_IBUF | 2056 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | a_page<0>.D1 | 2174 | ? | 0 | 4096 | a_page<0> | NULL | NULL | a_page<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | a_page<0>.D2 | 2175 | ? | 0 | 4096 | a_page<0> | NULL | NULL | a_page<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_0_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | a_page<0>.CLKF | 2176 | ? | 0 | 4096 | a_page<0> | NULL | NULL | a_page<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | a_page<0>.CE | 2177 | ? | 0 | 4096 | a_page<0> | NULL | NULL | a_page<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | a_page<0>.REG | a_page<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | a_page<0>.D | 2173 | ? | 0 | 0 | a_page<0> | NULL | NULL | a_page<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | a_page<0>.CLKF | 2176 | ? | 0 | 4096 | a_page<0> | NULL | NULL | a_page<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | a_page<0>.CE | 2177 | ? | 0 | 4096 | a_page<0> | NULL | NULL | a_page<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | a_page<0>.Q | 2178 | ? | 0 | 0 | a_page<0> | NULL | NULL | a_page<0>.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_1_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<1> | 2117 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_1_IBUF | 2058 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_1_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | a_page<1> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_1_IBUF | 2058 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | a_page<1> | 2059 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<1>.Q | a_page<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | a_page<1>.SI | a_page<1> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_1_IBUF | 2058 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | a_page<1>.D1 | 2180 | ? | 0 | 4096 | a_page<1> | NULL | NULL | a_page<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | a_page<1>.D2 | 2181 | ? | 0 | 4096 | a_page<1> | NULL | NULL | a_page<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_1_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | a_page<1>.CLKF | 2182 | ? | 0 | 4096 | a_page<1> | NULL | NULL | a_page<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | a_page<1>.CE | 2183 | ? | 0 | 4096 | a_page<1> | NULL | NULL | a_page<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | a_page<1>.REG | a_page<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | a_page<1>.D | 2179 | ? | 0 | 0 | a_page<1> | NULL | NULL | a_page<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | a_page<1>.CLKF | 2182 | ? | 0 | 4096 | a_page<1> | NULL | NULL | a_page<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | a_page<1>.CE | 2183 | ? | 0 | 4096 | a_page<1> | NULL | NULL | a_page<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | a_page<1>.Q | 2184 | ? | 0 | 0 | a_page<1> | NULL | NULL | a_page<1>.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_2_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<2> | 2118 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_2_IBUF | 2060 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_2_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | a_page<2> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_2_IBUF | 2060 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | a_page<2> | 2061 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<2>.Q | a_page<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | a_page<2>.SI | a_page<2> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_2_IBUF | 2060 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | a_page<2>.D1 | 2186 | ? | 0 | 4096 | a_page<2> | NULL | NULL | a_page<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | a_page<2>.D2 | 2187 | ? | 0 | 4096 | a_page<2> | NULL | NULL | a_page<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_2_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | a_page<2>.CLKF | 2188 | ? | 0 | 4096 | a_page<2> | NULL | NULL | a_page<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | a_page<2>.CE | 2189 | ? | 0 | 4096 | a_page<2> | NULL | NULL | a_page<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | a_page<2>.REG | a_page<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | a_page<2>.D | 2185 | ? | 0 | 0 | a_page<2> | NULL | NULL | a_page<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | a_page<2>.CLKF | 2188 | ? | 0 | 4096 | a_page<2> | NULL | NULL | a_page<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | a_page<2>.CE | 2189 | ? | 0 | 4096 | a_page<2> | NULL | NULL | a_page<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | a_page<2>.Q | 2190 | ? | 0 | 0 | a_page<2> | NULL | NULL | a_page<2>.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_3_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<3> | 2119 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_3_IBUF | 2062 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_3_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | a_page<3> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_3_IBUF | 2062 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | a_page<3> | 2063 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<3>.Q | a_page<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | a_page<3>.SI | a_page<3> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_3_IBUF | 2062 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | a_page<3>.D1 | 2192 | ? | 0 | 4096 | a_page<3> | NULL | NULL | a_page<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | a_page<3>.D2 | 2193 | ? | 0 | 4096 | a_page<3> | NULL | NULL | a_page<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_3_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | a_page<3>.CLKF | 2194 | ? | 0 | 4096 | a_page<3> | NULL | NULL | a_page<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | a_page<3>.CE | 2195 | ? | 0 | 4096 | a_page<3> | NULL | NULL | a_page<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | a_page<3>.REG | a_page<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | a_page<3>.D | 2191 | ? | 0 | 0 | a_page<3> | NULL | NULL | a_page<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | a_page<3>.CLKF | 2194 | ? | 0 | 4096 | a_page<3> | NULL | NULL | a_page<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | a_page<3>.CE | 2195 | ? | 0 | 4096 | a_page<3> | NULL | NULL | a_page<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | a_page<3>.Q | 2196 | ? | 0 | 0 | a_page<3> | NULL | NULL | a_page<3>.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_4_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<4> | 2120 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_4_IBUF | 2064 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_4_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | a_page<4> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_4_IBUF | 2064 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | a_page<4> | 2065 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<4>.Q | a_page<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | a_page<4>.SI | a_page<4> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_4_IBUF | 2064 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | a_page<4>.D1 | 2198 | ? | 0 | 4096 | a_page<4> | NULL | NULL | a_page<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | a_page<4>.D2 | 2199 | ? | 0 | 4096 | a_page<4> | NULL | NULL | a_page<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_4_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | a_page<4>.CLKF | 2200 | ? | 0 | 4096 | a_page<4> | NULL | NULL | a_page<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | a_page<4>.CE | 2201 | ? | 0 | 4096 | a_page<4> | NULL | NULL | a_page<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | a_page<4>.REG | a_page<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | a_page<4>.D | 2197 | ? | 0 | 0 | a_page<4> | NULL | NULL | a_page<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | a_page<4>.CLKF | 2200 | ? | 0 | 4096 | a_page<4> | NULL | NULL | a_page<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | a_page<4>.CE | 2201 | ? | 0 | 4096 | a_page<4> | NULL | NULL | a_page<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | a_page<4>.Q | 2202 | ? | 0 | 0 | a_page<4> | NULL | NULL | a_page<4>.REG | 0 | 8 | SRFF_Q
+
+INPUT_INSTANCE | 0 | 0 | NULL | aq_data_5_IBUF | paged_RAM_COPY_0_COPY_0 | 16 | 1 | 1
+INPUT_NODE_TYPE | 0 | 5 | II_IN
+NODE | aq_data<5> | 2121 | PI | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | NULL | 0 | 100 | NOTYPE
+OUTPUT_NODE_TYPE | 0 | 5 | II_IMUX
+NODE | aq_data_5_IBUF | 2066 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_5_IBUF | 0 | 5 | II_IMUX
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | a_page<5> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_5_IBUF | 2066 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | a_page<5> | 2067 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<5>.Q | a_page<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | a_page<5>.SI | a_page<5> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_5_IBUF | 2066 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | a_page<5>.D1 | 2204 | ? | 0 | 4096 | a_page<5> | NULL | NULL | a_page<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | a_page<5>.D2 | 2205 | ? | 0 | 4096 | a_page<5> | NULL | NULL | a_page<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_5_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | a_page<5>.CLKF | 2206 | ? | 0 | 4096 | a_page<5> | NULL | NULL | a_page<5>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | a_page<5>.CE | 2207 | ? | 0 | 4096 | a_page<5> | NULL | NULL | a_page<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | a_page<5>.REG | a_page<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | a_page<5>.D | 2203 | ? | 0 | 0 | a_page<5> | NULL | NULL | a_page<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | a_page<5>.CLKF | 2206 | ? | 0 | 4096 | a_page<5> | NULL | NULL | a_page<5>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | a_page<5>.CE | 2207 | ? | 0 | 4096 | a_page<5> | NULL | NULL | a_page<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_FALSE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | a_page<5>.Q | 2208 | ? | 0 | 0 | a_page<5> | NULL | NULL | a_page<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | b_page<0> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_0_IBUF | 2056 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | b_page<0> | 2068 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<0>.Q | b_page<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | b_page<0>.SI | b_page<0> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_0_IBUF | 2056 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | b_page<0>.D1 | 2210 | ? | 0 | 4096 | b_page<0> | NULL | NULL | b_page<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | b_page<0>.D2 | 2211 | ? | 0 | 4096 | b_page<0> | NULL | NULL | b_page<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_0_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | b_page<0>.CLKF | 2212 | ? | 0 | 4096 | b_page<0> | NULL | NULL | b_page<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | b_page<0>.CE | 2213 | ? | 0 | 4096 | b_page<0> | NULL | NULL | b_page<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | b_page<0>.REG | b_page<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | b_page<0>.D | 2209 | ? | 0 | 0 | b_page<0> | NULL | NULL | b_page<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | b_page<0>.CLKF | 2212 | ? | 0 | 4096 | b_page<0> | NULL | NULL | b_page<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | b_page<0>.CE | 2213 | ? | 0 | 4096 | b_page<0> | NULL | NULL | b_page<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | b_page<0>.Q | 2214 | ? | 0 | 0 | b_page<0> | NULL | NULL | b_page<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | b_page<1> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_1_IBUF | 2058 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | b_page<1> | 2069 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<1>.Q | b_page<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | b_page<1>.SI | b_page<1> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_1_IBUF | 2058 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | b_page<1>.D1 | 2216 | ? | 0 | 4096 | b_page<1> | NULL | NULL | b_page<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | b_page<1>.D2 | 2217 | ? | 0 | 4096 | b_page<1> | NULL | NULL | b_page<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_1_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | b_page<1>.CLKF | 2218 | ? | 0 | 4096 | b_page<1> | NULL | NULL | b_page<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | b_page<1>.CE | 2219 | ? | 0 | 4096 | b_page<1> | NULL | NULL | b_page<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | b_page<1>.REG | b_page<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | b_page<1>.D | 2215 | ? | 0 | 0 | b_page<1> | NULL | NULL | b_page<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | b_page<1>.CLKF | 2218 | ? | 0 | 4096 | b_page<1> | NULL | NULL | b_page<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | b_page<1>.CE | 2219 | ? | 0 | 4096 | b_page<1> | NULL | NULL | b_page<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | b_page<1>.Q | 2220 | ? | 0 | 0 | b_page<1> | NULL | NULL | b_page<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | b_page<2> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_2_IBUF | 2060 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | b_page<2> | 2070 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<2>.Q | b_page<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | b_page<2>.SI | b_page<2> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_2_IBUF | 2060 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | b_page<2>.D1 | 2222 | ? | 0 | 4096 | b_page<2> | NULL | NULL | b_page<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | b_page<2>.D2 | 2223 | ? | 0 | 4096 | b_page<2> | NULL | NULL | b_page<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_2_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | b_page<2>.CLKF | 2224 | ? | 0 | 4096 | b_page<2> | NULL | NULL | b_page<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | b_page<2>.CE | 2225 | ? | 0 | 4096 | b_page<2> | NULL | NULL | b_page<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | b_page<2>.REG | b_page<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | b_page<2>.D | 2221 | ? | 0 | 0 | b_page<2> | NULL | NULL | b_page<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | b_page<2>.CLKF | 2224 | ? | 0 | 4096 | b_page<2> | NULL | NULL | b_page<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | b_page<2>.CE | 2225 | ? | 0 | 4096 | b_page<2> | NULL | NULL | b_page<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | b_page<2>.Q | 2226 | ? | 0 | 0 | b_page<2> | NULL | NULL | b_page<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | b_page<3> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_3_IBUF | 2062 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | b_page<3> | 2071 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<3>.Q | b_page<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | b_page<3>.SI | b_page<3> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_3_IBUF | 2062 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | b_page<3>.D1 | 2228 | ? | 0 | 4096 | b_page<3> | NULL | NULL | b_page<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | b_page<3>.D2 | 2229 | ? | 0 | 4096 | b_page<3> | NULL | NULL | b_page<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_3_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | b_page<3>.CLKF | 2230 | ? | 0 | 4096 | b_page<3> | NULL | NULL | b_page<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | b_page<3>.CE | 2231 | ? | 0 | 4096 | b_page<3> | NULL | NULL | b_page<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | b_page<3>.REG | b_page<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | b_page<3>.D | 2227 | ? | 0 | 0 | b_page<3> | NULL | NULL | b_page<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | b_page<3>.CLKF | 2230 | ? | 0 | 4096 | b_page<3> | NULL | NULL | b_page<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | b_page<3>.CE | 2231 | ? | 0 | 4096 | b_page<3> | NULL | NULL | b_page<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | b_page<3>.Q | 2232 | ? | 0 | 0 | b_page<3> | NULL | NULL | b_page<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | b_page<4> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_4_IBUF | 2064 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | b_page<4> | 2072 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<4>.Q | b_page<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | b_page<4>.SI | b_page<4> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_4_IBUF | 2064 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | b_page<4>.D1 | 2234 | ? | 0 | 4096 | b_page<4> | NULL | NULL | b_page<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | b_page<4>.D2 | 2235 | ? | 0 | 4096 | b_page<4> | NULL | NULL | b_page<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_4_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | b_page<4>.CLKF | 2236 | ? | 0 | 4096 | b_page<4> | NULL | NULL | b_page<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | b_page<4>.CE | 2237 | ? | 0 | 4096 | b_page<4> | NULL | NULL | b_page<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | b_page<4>.REG | b_page<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | b_page<4>.D | 2233 | ? | 0 | 0 | b_page<4> | NULL | NULL | b_page<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | b_page<4>.CLKF | 2236 | ? | 0 | 4096 | b_page<4> | NULL | NULL | b_page<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | b_page<4>.CE | 2237 | ? | 0 | 4096 | b_page<4> | NULL | NULL | b_page<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | b_page<4>.Q | 2238 | ? | 0 | 0 | b_page<4> | NULL | NULL | b_page<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | b_page<5> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_5_IBUF | 2066 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | b_page<5> | 2073 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<5>.Q | b_page<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | b_page<5>.SI | b_page<5> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_5_IBUF | 2066 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | b_page<5>.D1 | 2240 | ? | 0 | 4096 | b_page<5> | NULL | NULL | b_page<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | b_page<5>.D2 | 2241 | ? | 0 | 4096 | b_page<5> | NULL | NULL | b_page<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_5_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | b_page<5>.CLKF | 2242 | ? | 0 | 4096 | b_page<5> | NULL | NULL | b_page<5>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | b_page<5>.CE | 2243 | ? | 0 | 4096 | b_page<5> | NULL | NULL | b_page<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | b_page<5>.REG | b_page<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | b_page<5>.D | 2239 | ? | 0 | 0 | b_page<5> | NULL | NULL | b_page<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | b_page<5>.CLKF | 2242 | ? | 0 | 4096 | b_page<5> | NULL | NULL | b_page<5>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | b_page<5>.CE | 2243 | ? | 0 | 4096 | b_page<5> | NULL | NULL | b_page<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_FALSE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | b_page<5>.Q | 2244 | ? | 0 | 0 | b_page<5> | NULL | NULL | b_page<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | c_page<0> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_0_IBUF | 2056 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | c_page<0> | 2074 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<0>.Q | c_page<0> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | c_page<0>.SI | c_page<0> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_0_IBUF | 2056 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_page<0>.D1 | 2246 | ? | 0 | 4096 | c_page<0> | NULL | NULL | c_page<0>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_page<0>.D2 | 2247 | ? | 0 | 4096 | c_page<0> | NULL | NULL | c_page<0>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_0_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | c_page<0>.CLKF | 2248 | ? | 0 | 4096 | c_page<0> | NULL | NULL | c_page<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | c_page<0>.CE | 2249 | ? | 0 | 4096 | c_page<0> | NULL | NULL | c_page<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | c_page<0>.REG | c_page<0> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_page<0>.D | 2245 | ? | 0 | 0 | c_page<0> | NULL | NULL | c_page<0>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | c_page<0>.CLKF | 2248 | ? | 0 | 4096 | c_page<0> | NULL | NULL | c_page<0>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | c_page<0>.CE | 2249 | ? | 0 | 4096 | c_page<0> | NULL | NULL | c_page<0>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_page<0>.Q | 2250 | ? | 0 | 0 | c_page<0> | NULL | NULL | c_page<0>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | c_page<1> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_1_IBUF | 2058 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | c_page<1> | 2075 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<1>.Q | c_page<1> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | c_page<1>.SI | c_page<1> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_1_IBUF | 2058 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_page<1>.D1 | 2252 | ? | 0 | 4096 | c_page<1> | NULL | NULL | c_page<1>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_page<1>.D2 | 2253 | ? | 0 | 4096 | c_page<1> | NULL | NULL | c_page<1>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_1_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | c_page<1>.CLKF | 2254 | ? | 0 | 4096 | c_page<1> | NULL | NULL | c_page<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | c_page<1>.CE | 2255 | ? | 0 | 4096 | c_page<1> | NULL | NULL | c_page<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | c_page<1>.REG | c_page<1> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_page<1>.D | 2251 | ? | 0 | 0 | c_page<1> | NULL | NULL | c_page<1>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | c_page<1>.CLKF | 2254 | ? | 0 | 4096 | c_page<1> | NULL | NULL | c_page<1>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | c_page<1>.CE | 2255 | ? | 0 | 4096 | c_page<1> | NULL | NULL | c_page<1>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_page<1>.Q | 2256 | ? | 0 | 0 | c_page<1> | NULL | NULL | c_page<1>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | c_page<2> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_2_IBUF | 2060 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | c_page<2> | 2076 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<2>.Q | c_page<2> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | c_page<2>.SI | c_page<2> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_2_IBUF | 2060 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_page<2>.D1 | 2258 | ? | 0 | 4096 | c_page<2> | NULL | NULL | c_page<2>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_page<2>.D2 | 2259 | ? | 0 | 4096 | c_page<2> | NULL | NULL | c_page<2>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_2_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | c_page<2>.CLKF | 2260 | ? | 0 | 4096 | c_page<2> | NULL | NULL | c_page<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | c_page<2>.CE | 2261 | ? | 0 | 4096 | c_page<2> | NULL | NULL | c_page<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | c_page<2>.REG | c_page<2> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_page<2>.D | 2257 | ? | 0 | 0 | c_page<2> | NULL | NULL | c_page<2>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | c_page<2>.CLKF | 2260 | ? | 0 | 4096 | c_page<2> | NULL | NULL | c_page<2>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | c_page<2>.CE | 2261 | ? | 0 | 4096 | c_page<2> | NULL | NULL | c_page<2>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_page<2>.Q | 2262 | ? | 0 | 0 | c_page<2> | NULL | NULL | c_page<2>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | c_page<3> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_3_IBUF | 2062 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | c_page<3> | 2077 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<3>.Q | c_page<3> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | c_page<3>.SI | c_page<3> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_3_IBUF | 2062 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_3_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_page<3>.D1 | 2264 | ? | 0 | 4096 | c_page<3> | NULL | NULL | c_page<3>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_page<3>.D2 | 2265 | ? | 0 | 4096 | c_page<3> | NULL | NULL | c_page<3>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_3_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | c_page<3>.CLKF | 2266 | ? | 0 | 4096 | c_page<3> | NULL | NULL | c_page<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | c_page<3>.CE | 2267 | ? | 0 | 4096 | c_page<3> | NULL | NULL | c_page<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | c_page<3>.REG | c_page<3> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_page<3>.D | 2263 | ? | 0 | 0 | c_page<3> | NULL | NULL | c_page<3>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | c_page<3>.CLKF | 2266 | ? | 0 | 4096 | c_page<3> | NULL | NULL | c_page<3>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | c_page<3>.CE | 2267 | ? | 0 | 4096 | c_page<3> | NULL | NULL | c_page<3>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_page<3>.Q | 2268 | ? | 0 | 0 | c_page<3> | NULL | NULL | c_page<3>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | c_page<4> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_4_IBUF | 2064 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | c_page<4> | 2078 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<4>.Q | c_page<4> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | c_page<4>.SI | c_page<4> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_4_IBUF | 2064 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_page<4>.D1 | 2270 | ? | 0 | 4096 | c_page<4> | NULL | NULL | c_page<4>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_page<4>.D2 | 2271 | ? | 0 | 4096 | c_page<4> | NULL | NULL | c_page<4>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_4_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | c_page<4>.CLKF | 2272 | ? | 0 | 4096 | c_page<4> | NULL | NULL | c_page<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | c_page<4>.CE | 2273 | ? | 0 | 4096 | c_page<4> | NULL | NULL | c_page<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | c_page<4>.REG | c_page<4> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_page<4>.D | 2269 | ? | 0 | 0 | c_page<4> | NULL | NULL | c_page<4>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | c_page<4>.CLKF | 2272 | ? | 0 | 4096 | c_page<4> | NULL | NULL | c_page<4>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | c_page<4>.CE | 2273 | ? | 0 | 4096 | c_page<4> | NULL | NULL | c_page<4>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_page<4>.Q | 2274 | ? | 0 | 0 | c_page<4> | NULL | NULL | c_page<4>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | c_page<5> | paged_RAM_COPY_0_COPY_0 | 2155873280 | 13 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_5_IBUF | 2066 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | c_page<5> | 2079 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_page<5>.Q | c_page<5> | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | c_page<5>.SI | c_page<5> | 0 | 13 | 4
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_5_IBUF | 2066 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_5_IBUF | 2044 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_5_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_2_IBUF | 2045 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_2_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_1_IBUF | 2046 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_0_IBUF | 2047 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_7_IBUF | 2054 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_data_6_IBUF | 2055 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_data_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_7_IBUF | 2086 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_7_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_6_IBUF | 2087 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_6_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_4_IBUF | 2088 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_4_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_LO_3_IBUF | 2089 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_LO_3_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_page<5>.D1 | 2276 | ? | 0 | 4096 | c_page<5> | NULL | NULL | c_page<5>.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_page<5>.D2 | 2277 | ? | 0 | 4096 | c_page<5> | NULL | NULL | c_page<5>.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_TRUE | aq_data_5_IBUF
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | c_page<5>.CLKF | 2278 | ? | 0 | 4096 | c_page<5> | NULL | NULL | c_page<5>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 10 | 9 | MC_SI_CE
+SIGNAL | NODE | c_page<5>.CE | 2279 | ? | 0 | 4096 | c_page<5> | NULL | NULL | c_page<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+
+SRFF_INSTANCE | c_page<5>.REG | c_page<5> | 0 | 3 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_page<5>.D | 2275 | ? | 0 | 0 | c_page<5> | NULL | NULL | c_page<5>.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | c_page<5>.CLKF | 2278 | ? | 0 | 4096 | c_page<5> | NULL | NULL | c_page<5>.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+INPUT_NODE_TYPE | 4 | 8 | SRFF_CE
+SIGNAL | NODE | c_page<5>.CE | 2279 | ? | 0 | 4096 | c_page<5> | NULL | NULL | c_page<5>.SI | 10 | 9 | MC_SI_CE
+SPPTERM | 10 | IV_TRUE | aq_addr_LO_5_IBUF | IV_TRUE | aq_addr_LO_2_IBUF | IV_TRUE | aq_addr_LO_1_IBUF | IV_TRUE | aq_addr_LO_0_IBUF | IV_TRUE | aq_data_7_IBUF | IV_TRUE | aq_data_6_IBUF | IV_TRUE | aq_addr_LO_7_IBUF | IV_TRUE | aq_addr_LO_6_IBUF | IV_FALSE | aq_addr_LO_4_IBUF | IV_FALSE | aq_addr_LO_3_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_page<5>.Q | 2280 | ? | 0 | 0 | c_page<5> | NULL | NULL | c_page<5>.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | c_ce_OBUF | paged_RAM_COPY_0_COPY_0 | 2155872512 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | c_ce_OBUF$Q | 2080 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_ce_OBUF.Q | c_ce_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | c_ce_OBUF.SI | c_ce_OBUF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | c_ce_OBUF.D1 | 2282 | ? | 0 | 4096 | c_ce_OBUF | NULL | NULL | c_ce_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | c_ce_OBUF.D2 | 2283 | ? | 0 | 4096 | c_ce_OBUF | NULL | NULL | c_ce_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | hi_RAM_enable
+SPPTERM | 3 | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | c_ce_OBUF.REG | c_ce_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | c_ce_OBUF.D | 2281 | ? | 0 | 0 | c_ce_OBUF | NULL | NULL | c_ce_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | c_ce_OBUF.Q | 2284 | ? | 0 | 0 | c_ce_OBUF | NULL | NULL | c_ce_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | PrldLow+OptxMapped | hi_RAM_enable | paged_RAM_COPY_0_COPY_0 | 2155873280 | 2 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | hi_RAM_enable.SI | hi_RAM_enable | 0 | 2 | 3
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_wr_IBUF | 2082 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_wr_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_iorq_IBUF | 2083 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_iorq_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | hi_RAM_enable.D1 | 2286 | ? | 0 | 4096 | hi_RAM_enable | NULL | NULL | hi_RAM_enable.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | hi_RAM_enable.D2 | 2287 | ? | 0 | 6144 | hi_RAM_enable | NULL | NULL | hi_RAM_enable.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_DC
+OUTPUT_NODE_TYPE | 3 | 9 | MC_SI_CLKF
+SIGNAL | NODE | hi_RAM_enable.CLKF | 2288 | ? | 0 | 4096 | hi_RAM_enable | NULL | NULL | hi_RAM_enable.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+
+SRFF_INSTANCE | hi_RAM_enable.REG | hi_RAM_enable | 0 | 2 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | hi_RAM_enable.D | 2285 | ? | 0 | 0 | hi_RAM_enable | NULL | NULL | hi_RAM_enable.XOR | 0 | 7 | ALU_F
+INPUT_NODE_TYPE | 1 | 8 | SRFF_C
+SIGNAL | NODE | hi_RAM_enable.CLKF | 2288 | ? | 0 | 4096 | hi_RAM_enable | NULL | NULL | hi_RAM_enable.SI | 3 | 9 | MC_SI_CLKF
+SPPTERM | 2 | IV_FALSE | aq_wr_IBUF | IV_FALSE | aq_iorq_IBUF
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | hi_RAM_enable.Q | 2289 | ? | 0 | 0 | hi_RAM_enable | NULL | NULL | hi_RAM_enable.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | a_ce_OBUF | paged_RAM_COPY_0_COPY_0 | 2155872512 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | a_ce_OBUF | 2091 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_ce_OBUF.Q | a_ce_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | a_ce_OBUF.SI | a_ce_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | a_ce_OBUF.D1 | 2291 | ? | 0 | 4096 | a_ce_OBUF | NULL | NULL | a_ce_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | a_ce_OBUF.D2 | 2292 | ? | 0 | 4096 | a_ce_OBUF | NULL | NULL | a_ce_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | a_ce_OBUF.REG | a_ce_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | a_ce_OBUF.D | 2290 | ? | 0 | 0 | a_ce_OBUF | NULL | NULL | a_ce_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | a_ce_OBUF.Q | 2293 | ? | 0 | 0 | a_ce_OBUF | NULL | NULL | a_ce_OBUF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | Inv+OptxMapped | b_ce_OBUF | paged_RAM_COPY_0_COPY_0 | 2155872512 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | b_ce_OBUF | 2092 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_ce_OBUF.Q | b_ce_OBUF | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | b_ce_OBUF.SI | b_ce_OBUF | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | b_ce_OBUF.D1 | 2295 | ? | 0 | 4096 | b_ce_OBUF | NULL | NULL | b_ce_OBUF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | b_ce_OBUF.D2 | 2296 | ? | 0 | 4096 | b_ce_OBUF | NULL | NULL | b_ce_OBUF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | b_ce_OBUF.REG | b_ce_OBUF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | b_ce_OBUF.D | 2294 | ? | 0 | 0 | b_ce_OBUF | NULL | NULL | b_ce_OBUF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | b_ce_OBUF.Q | 2297 | ? | 0 | 0 | b_ce_OBUF | NULL | NULL | b_ce_OBUF.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | x_page<0> | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | x_page_0 | 2048 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_0.Q | x_page_0 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | x_page<0> | 2093 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | x_page<0> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | x_page<1> | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | x_page_1 | 2049 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_1.Q | x_page_1 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | x_page<1> | 2094 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | x_page<1> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | x_page<2> | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | x_page_2 | 2050 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_2.Q | x_page_2 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | x_page<2> | 2095 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | x_page<2> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | x_page<3> | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | x_page_3 | 2051 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_3.Q | x_page_3 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | x_page<3> | 2096 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | x_page<3> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | x_page<4> | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | x_page_4 | 2052 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_4.Q | x_page_4 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | x_page<4> | 2097 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | x_page<4> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | x_page<5> | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | x_page_5 | 2053 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5.Q | x_page_5 | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | x_page<5> | 2098 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | x_page<5> | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | c_ce | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | c_ce_OBUF$Q | 2080 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | c_ce_OBUF.Q | c_ce_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | c_ce | 2099 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | c_ce | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | a_ce | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | a_ce_OBUF | 2091 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_ce_OBUF.Q | a_ce_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | a_ce | 2100 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | a_ce | 0 | 6 | OI_OUT
+
+OUTPUT_INSTANCE | 0 | b_ce | paged_RAM_COPY_0_COPY_0 | 7 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | b_ce_OBUF | 2092 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_ce_OBUF.Q | b_ce_OBUF | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | b_ce | 2101 | PO | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | b_ce | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | SoftPfbk | x_page_5/x_page_5_CLKF | paged_RAM_COPY_0_COPY_0 | 2181038080 | 4 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | x_page_5/x_page_5_CLKF.UIM | 2102 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_CLKF.Q | x_page_5/x_page_5_CLKF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | x_page_5/x_page_5_CLKF.SI | x_page_5/x_page_5_CLKF | 0 | 4 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | hi_RAM_enable | 2090 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | hi_RAM_enable.Q | hi_RAM_enable | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_5/x_page_5_CLKF.D1 | 2299 | ? | 0 | 4096 | x_page_5/x_page_5_CLKF | NULL | NULL | x_page_5/x_page_5_CLKF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_5/x_page_5_CLKF.D2 | 2300 | ? | 0 | 4096 | x_page_5/x_page_5_CLKF | NULL | NULL | x_page_5/x_page_5_CLKF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 1 | IV_FALSE | hi_RAM_enable
+SPPTERM | 3 | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | x_page_5/x_page_5_CLKF.REG | x_page_5/x_page_5_CLKF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_5/x_page_5_CLKF.D | 2298 | ? | 0 | 0 | x_page_5/x_page_5_CLKF | NULL | NULL | x_page_5/x_page_5_CLKF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_5/x_page_5_CLKF.Q | 2301 | ? | 0 | 0 | x_page_5/x_page_5_CLKF | NULL | NULL | x_page_5/x_page_5_CLKF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | x_page_0/x_page_0_SETF | paged_RAM_COPY_0_COPY_0 | 2181038080 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<0> | 2057 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<0>.Q | a_page<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<0> | 2068 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<0>.Q | b_page<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | x_page_0/x_page_0_SETF.UIM | 2103 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_0/x_page_0_SETF.Q | x_page_0/x_page_0_SETF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | x_page_0/x_page_0_SETF.SI | x_page_0/x_page_0_SETF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<0> | 2057 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<0>.Q | a_page<0> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<0> | 2068 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<0>.Q | b_page<0> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_0/x_page_0_SETF.D1 | 2303 | ? | 0 | 4096 | x_page_0/x_page_0_SETF | NULL | NULL | x_page_0/x_page_0_SETF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_0/x_page_0_SETF.D2 | 2304 | ? | 0 | 4096 | x_page_0/x_page_0_SETF | NULL | NULL | x_page_0/x_page_0_SETF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | a_page<0> | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+SPPTERM | 4 | IV_TRUE | b_page<0> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | x_page_0/x_page_0_SETF.REG | x_page_0/x_page_0_SETF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_0/x_page_0_SETF.D | 2302 | ? | 0 | 0 | x_page_0/x_page_0_SETF | NULL | NULL | x_page_0/x_page_0_SETF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_0/x_page_0_SETF.Q | 2305 | ? | 0 | 0 | x_page_0/x_page_0_SETF | NULL | NULL | x_page_0/x_page_0_SETF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | $OpTx$FX_SC$15 | paged_RAM_COPY_0_COPY_0 | 2181038080 | 3 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | $OpTx$FX_SC$15.UIM | 2104 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | $OpTx$FX_SC$15.Q | $OpTx$FX_SC$15 | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | $OpTx$FX_SC$15.SI | $OpTx$FX_SC$15 | 0 | 3 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | $OpTx$FX_SC$15.D1 | 2307 | ? | 0 | 4096 | $OpTx$FX_SC$15 | NULL | NULL | $OpTx$FX_SC$15.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | $OpTx$FX_SC$15.D2 | 2308 | ? | 0 | 4096 | $OpTx$FX_SC$15 | NULL | NULL | $OpTx$FX_SC$15.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 3 | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+SPPTERM | 3 | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | $OpTx$FX_SC$15.REG | $OpTx$FX_SC$15 | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | $OpTx$FX_SC$15.D | 2306 | ? | 0 | 0 | $OpTx$FX_SC$15 | NULL | NULL | $OpTx$FX_SC$15.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | $OpTx$FX_SC$15.Q | 2309 | ? | 0 | 0 | $OpTx$FX_SC$15 | NULL | NULL | $OpTx$FX_SC$15.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | x_page_1/x_page_1_SETF | paged_RAM_COPY_0_COPY_0 | 2181038080 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<1> | 2059 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<1>.Q | a_page<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<1> | 2069 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<1>.Q | b_page<1> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | x_page_1/x_page_1_SETF.UIM | 2105 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_1/x_page_1_SETF.Q | x_page_1/x_page_1_SETF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | x_page_1/x_page_1_SETF.SI | x_page_1/x_page_1_SETF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<1> | 2059 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<1>.Q | a_page<1> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<1> | 2069 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<1>.Q | b_page<1> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_1/x_page_1_SETF.D1 | 2311 | ? | 0 | 4096 | x_page_1/x_page_1_SETF | NULL | NULL | x_page_1/x_page_1_SETF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_1/x_page_1_SETF.D2 | 2312 | ? | 0 | 4096 | x_page_1/x_page_1_SETF | NULL | NULL | x_page_1/x_page_1_SETF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | a_page<1> | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+SPPTERM | 4 | IV_TRUE | b_page<1> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | x_page_1/x_page_1_SETF.REG | x_page_1/x_page_1_SETF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_1/x_page_1_SETF.D | 2310 | ? | 0 | 0 | x_page_1/x_page_1_SETF | NULL | NULL | x_page_1/x_page_1_SETF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_1/x_page_1_SETF.Q | 2313 | ? | 0 | 0 | x_page_1/x_page_1_SETF | NULL | NULL | x_page_1/x_page_1_SETF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | x_page_2/x_page_2_SETF | paged_RAM_COPY_0_COPY_0 | 2181038080 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<2> | 2061 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<2>.Q | a_page<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<2> | 2070 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<2>.Q | b_page<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | x_page_2/x_page_2_SETF.UIM | 2106 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_2/x_page_2_SETF.Q | x_page_2/x_page_2_SETF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | x_page_2/x_page_2_SETF.SI | x_page_2/x_page_2_SETF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<2> | 2061 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<2>.Q | a_page<2> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<2> | 2070 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<2>.Q | b_page<2> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_2/x_page_2_SETF.D1 | 2315 | ? | 0 | 4096 | x_page_2/x_page_2_SETF | NULL | NULL | x_page_2/x_page_2_SETF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_2/x_page_2_SETF.D2 | 2316 | ? | 0 | 4096 | x_page_2/x_page_2_SETF | NULL | NULL | x_page_2/x_page_2_SETF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | a_page<2> | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+SPPTERM | 4 | IV_TRUE | b_page<2> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | x_page_2/x_page_2_SETF.REG | x_page_2/x_page_2_SETF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_2/x_page_2_SETF.D | 2314 | ? | 0 | 0 | x_page_2/x_page_2_SETF | NULL | NULL | x_page_2/x_page_2_SETF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_2/x_page_2_SETF.Q | 2317 | ? | 0 | 0 | x_page_2/x_page_2_SETF | NULL | NULL | x_page_2/x_page_2_SETF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | x_page_3/x_page_3_SETF | paged_RAM_COPY_0_COPY_0 | 2181038080 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<3> | 2063 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<3>.Q | a_page<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<3> | 2071 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<3>.Q | b_page<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | x_page_3/x_page_3_SETF.UIM | 2107 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_3/x_page_3_SETF.Q | x_page_3/x_page_3_SETF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | x_page_3/x_page_3_SETF.SI | x_page_3/x_page_3_SETF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<3> | 2063 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<3>.Q | a_page<3> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<3> | 2071 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<3>.Q | b_page<3> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_3/x_page_3_SETF.D1 | 2319 | ? | 0 | 4096 | x_page_3/x_page_3_SETF | NULL | NULL | x_page_3/x_page_3_SETF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_3/x_page_3_SETF.D2 | 2320 | ? | 0 | 4096 | x_page_3/x_page_3_SETF | NULL | NULL | x_page_3/x_page_3_SETF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | a_page<3> | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+SPPTERM | 4 | IV_TRUE | b_page<3> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | x_page_3/x_page_3_SETF.REG | x_page_3/x_page_3_SETF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_3/x_page_3_SETF.D | 2318 | ? | 0 | 0 | x_page_3/x_page_3_SETF | NULL | NULL | x_page_3/x_page_3_SETF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_3/x_page_3_SETF.Q | 2321 | ? | 0 | 0 | x_page_3/x_page_3_SETF | NULL | NULL | x_page_3/x_page_3_SETF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | x_page_4/x_page_4_SETF | paged_RAM_COPY_0_COPY_0 | 2181038080 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<4> | 2065 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<4>.Q | a_page<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<4> | 2072 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<4>.Q | b_page<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | x_page_4/x_page_4_SETF.UIM | 2108 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_4/x_page_4_SETF.Q | x_page_4/x_page_4_SETF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | x_page_4/x_page_4_SETF.SI | x_page_4/x_page_4_SETF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<4> | 2065 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<4>.Q | a_page<4> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<4> | 2072 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<4>.Q | b_page<4> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_4/x_page_4_SETF.D1 | 2323 | ? | 0 | 4096 | x_page_4/x_page_4_SETF | NULL | NULL | x_page_4/x_page_4_SETF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_4/x_page_4_SETF.D2 | 2324 | ? | 0 | 4096 | x_page_4/x_page_4_SETF | NULL | NULL | x_page_4/x_page_4_SETF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_TRUE | a_page<4> | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+SPPTERM | 4 | IV_TRUE | b_page<4> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | x_page_4/x_page_4_SETF.REG | x_page_4/x_page_4_SETF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_4/x_page_4_SETF.D | 2322 | ? | 0 | 0 | x_page_4/x_page_4_SETF | NULL | NULL | x_page_4/x_page_4_SETF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_4/x_page_4_SETF.Q | 2325 | ? | 0 | 0 | x_page_4/x_page_4_SETF | NULL | NULL | x_page_4/x_page_4_SETF.REG | 0 | 8 | SRFF_Q
+
+MACROCELL_INSTANCE | SoftPfbk | x_page_5/x_page_5_RSTF | paged_RAM_COPY_0_COPY_0 | 2181038080 | 5 | 1
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<5> | 2067 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<5>.Q | a_page<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<5> | 2073 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<5>.Q | b_page<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 0 | MC_UIM
+NODE | x_page_5/x_page_5_RSTF.UIM | 2109 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | x_page_5/x_page_5_RSTF.Q | x_page_5/x_page_5_RSTF | 1 | 0 | MC_UIM
+
+SIGNAL_INSTANCE | x_page_5/x_page_5_RSTF.SI | x_page_5/x_page_5_RSTF | 0 | 5 | 2
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | a_page<5> | 2067 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | a_page<5>.Q | a_page<5> | 1 | 0 | MC_UIM
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_mreq_IBUF | 2081 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_mreq_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_1_IBUF | 2084 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_1_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | aq_addr_HI_0_IBUF | 2085 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | NULL | aq_addr_HI_0_IBUF | 0 | 5 | II_IMUX
+INPUT_NODE_TYPE | 1 | 100 | NOTYPE
+NODE | b_page<5> | 2073 | ? | 0 | 0 | paged_RAM_COPY_0_COPY_0 | NULL | b_page<5>.Q | b_page<5> | 1 | 0 | MC_UIM
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | x_page_5/x_page_5_RSTF.D1 | 2327 | ? | 0 | 4096 | x_page_5/x_page_5_RSTF | NULL | NULL | x_page_5/x_page_5_RSTF.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | x_page_5/x_page_5_RSTF.D2 | 2328 | ? | 0 | 4096 | x_page_5/x_page_5_RSTF | NULL | NULL | x_page_5/x_page_5_RSTF.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 4 | IV_FALSE | a_page<5> | IV_FALSE | aq_mreq_IBUF | IV_FALSE | aq_addr_HI_1_IBUF | IV_TRUE | aq_addr_HI_0_IBUF
+SPPTERM | 4 | IV_FALSE | b_page<5> | IV_FALSE | aq_mreq_IBUF | IV_TRUE | aq_addr_HI_1_IBUF | IV_FALSE | aq_addr_HI_0_IBUF
+
+SRFF_INSTANCE | x_page_5/x_page_5_RSTF.REG | x_page_5/x_page_5_RSTF | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | x_page_5/x_page_5_RSTF.D | 2326 | ? | 0 | 0 | x_page_5/x_page_5_RSTF | NULL | NULL | x_page_5/x_page_5_RSTF.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | x_page_5/x_page_5_RSTF.Q | 2329 | ? | 0 | 0 | x_page_5/x_page_5_RSTF | NULL | NULL | x_page_5/x_page_5_RSTF.REG | 0 | 8 | SRFF_Q
+
+FB_INSTANCE | FOOBAR1_ | paged_RAM_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | x_page_4 | 1 | NULL | 0 | x_page<4> | 1 | 8 | 49152
+FBPIN | 3 | x_page_0 | 1 | NULL | 0 | x_page<0> | 1 | 12 | 49152
+FBPIN | 5 | x_page_3 | 1 | NULL | 0 | x_page<3> | 1 | 9 | 49152
+FBPIN | 6 | x_page_2 | 1 | NULL | 0 | x_page<2> | 1 | 10 | 49152
+FBPIN | 8 | x_page_1 | 1 | NULL | 0 | x_page<1> | 1 | 11 | 49152
+FBPIN | 12 | NULL | 0 | aq_addr_HI_0_IBUF | 1 | NULL | 0 | 23 | 49152
+FBPIN | 15 | x_page_5/x_page_5_CLKF | 1 | NULL | 0 | NULL | 0 | 19 | 49152
+FBPIN | 16 | x_page_1/x_page_1_SETF | 1 | NULL | 0 | NULL | 0
+FBPIN | 17 | x_page_0/x_page_0_SETF | 1 | NULL | 0 | NULL | 0 | 20 | 49152
+FBPIN | 18 | $OpTx$FX_SC$15 | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR2_ | paged_RAM_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 5 | NULL | 0 | aq_iorq_IBUF | 1 | NULL | 0 | 61 | 49152
+FBPIN | 8 | NULL | 0 | aq_addr_LO_1_IBUF | 1 | NULL | 0 | 63 | 49152
+FBPIN | 10 | c_ce_OBUF | 1 | NULL | 0 | c_ce | 1 | 1 | 49152
+FBPIN | 11 | hi_RAM_enable | 1 | NULL | 0 | NULL | 0 | 2 | 53248
+FBPIN | 12 | b_ce_OBUF | 1 | NULL | 0 | b_ce | 1 | 4 | 49152
+FBPIN | 13 | x_page_5/x_page_5_RSTF | 1 | NULL | 0 | NULL | 0
+FBPIN | 14 | x_page_4/x_page_4_SETF | 1 | NULL | 0 | NULL | 0 | 5 | 53248
+FBPIN | 15 | a_ce_OBUF | 1 | NULL | 0 | a_ce | 1 | 6 | 49152
+FBPIN | 16 | x_page_3/x_page_3_SETF | 1 | NULL | 0 | NULL | 0
+FBPIN | 17 | x_page_5 | 1 | NULL | 0 | x_page<5> | 1 | 7 | 49152
+FBPIN | 18 | x_page_2/x_page_2_SETF | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR3_ | paged_RAM_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 1 | c_page<5> | 1 | NULL | 0 | NULL | 0
+FBPIN | 2 | c_page<4> | 1 | aq_addr_HI_1_IBUF | 1 | NULL | 0 | 22 | 49152
+FBPIN | 3 | c_page<3> | 1 | aq_addr_LO_7_IBUF | 1 | NULL | 0 | 31 | 49152
+FBPIN | 4 | c_page<2> | 1 | aq_addr_LO_4_IBUF | 1 | NULL | 0 | 32 | 49152
+FBPIN | 5 | c_page<1> | 1 | NULL | 0 | NULL | 0 | 24 | 49152
+FBPIN | 6 | c_page<0> | 1 | aq_addr_LO_3_IBUF | 1 | NULL | 0 | 34 | 49152
+FBPIN | 7 | b_page<5> | 1 | NULL | 0 | NULL | 0
+FBPIN | 8 | b_page<4> | 1 | aq_addr_LO_6_IBUF | 1 | NULL | 0 | 25 | 49152
+FBPIN | 9 | b_page<3> | 1 | aq_addr_LO_5_IBUF | 1 | NULL | 0 | 27 | 49152
+FBPIN | 10 | b_page<2> | 1 | NULL | 0 | NULL | 0 | 39 | 49152
+FBPIN | 11 | b_page<1> | 1 | NULL | 0 | NULL | 0 | 33 | 49152
+FBPIN | 12 | b_page<0> | 1 | aq_addr_LO_0_IBUF | 1 | NULL | 0 | 40 | 49152
+FBPIN | 13 | a_page<5> | 1 | NULL | 0 | NULL | 0
+FBPIN | 14 | a_page<4> | 1 | NULL | 0 | NULL | 0 | 35 | 49152
+FBPIN | 15 | a_page<3> | 1 | aq_addr_LO_2_IBUF | 1 | NULL | 0 | 36 | 49152
+FBPIN | 16 | a_page<2> | 1 | NULL | 0 | NULL | 0 | 42 | 49152
+FBPIN | 17 | a_page<1> | 1 | NULL | 0 | NULL | 0 | 38 | 49152
+FBPIN | 18 | a_page<0> | 1 | NULL | 0 | NULL | 0
+
+FB_INSTANCE | FOOBAR4_ | paged_RAM_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 2 | NULL | 0 | aq_data_0_IBUF | 1 | NULL | 0 | 43 | 49152
+FBPIN | 3 | NULL | 0 | aq_data_3_IBUF | 1 | NULL | 0 | 46 | 49152
+FBPIN | 4 | NULL | 0 | aq_data_4_IBUF | 1 | NULL | 0 | 47 | 49152
+FBPIN | 5 | NULL | 0 | aq_data_1_IBUF | 1 | NULL | 0 | 44 | 49152
+FBPIN | 6 | NULL | 0 | aq_data_6_IBUF | 1 | NULL | 0 | 49 | 49152
+FBPIN | 8 | NULL | 0 | aq_data_2_IBUF | 1 | NULL | 0 | 45 | 49152
+FBPIN | 11 | NULL | 0 | aq_data_5_IBUF | 1 | NULL | 0 | 48 | 49152
+FBPIN | 14 | NULL | 0 | aq_data_7_IBUF | 1 | NULL | 0 | 50 | 49152
+FBPIN | 15 | NULL | 0 | aq_wr_IBUF | 1 | NULL | 0 | 56 | 49152
+FBPIN | 17 | NULL | 0 | aq_mreq_IBUF | 1 | NULL | 0 | 57 | 49152
+
+FB_INSTANCE | INPUTPINS_FOOBAR5_ | paged_RAM_COPY_0_COPY_0 | 0 | 0 | 0
+
+BUSINFO | AQ_ADDR_HI<1:0> | 2 | 0 | 0 | aq_addr_HI<0> | 1 | aq_addr_HI<1> | 0
+BUSINFO | AQ_ADDR_LO<13:0> | 14 | 0 | 0 | aq_addr_LO<0> | 13 | aq_addr_LO<10> | 3 | aq_addr_LO<11> | 2 | aq_addr_LO<12> | 1 | aq_addr_LO<13> | 0 | aq_addr_LO<1> | 12 | aq_addr_LO<2> | 11 | aq_addr_LO<3> | 10 | aq_addr_LO<4> | 9 | aq_addr_LO<5> | 8 | aq_addr_LO<6> | 7 | aq_addr_LO<7> | 6 | aq_addr_LO<8> | 5 | aq_addr_LO<9> | 4
+BUSINFO | AQ_DATA<7:0> | 8 | 0 | 0 | aq_data<0> | 7 | aq_data<1> | 6 | aq_data<2> | 5 | aq_data<3> | 4 | aq_data<4> | 3 | aq_data<5> | 2 | aq_data<6> | 1 | aq_data<7> | 0
+BUSINFO | X_PAGE<5:0> | 6 | 0 | 1 | x_page<0> | 5 | x_page<1> | 4 | x_page<2> | 3 | x_page<3> | 2 | x_page<4> | 1 | x_page<5> | 0
+
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 1 | aq_mreq | 57 | 3 | c_page<2> | NULL | 4 | c_page<1> | NULL | 5 | c_page<0> | NULL | 8 | aq_addr_HI<1> | 22
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 10 | hi_RAM_enable | NULL | 14 | x_page_5/x_page_5_CLKF.UIM | NULL | 15 | x_page_1/x_page_1_SETF.UIM | NULL | 16 | a_page<1> | NULL | 17 | x_page_2/x_page_2_SETF.UIM | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 23 | $OpTx$FX_SC$15.UIM | NULL | 26 | b_page<0> | NULL | 29 | x_page_4/x_page_4_SETF.UIM | NULL | 30 | x_page_3/x_page_3_SETF.UIM | NULL | 33 | a_page<0> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR1_ | 37 | b_page<1> | NULL | 39 | aq_addr_HI<0> | 23 | 41 | c_page<4> | NULL | 45 | c_page<3> | NULL | 48 | x_page_0/x_page_0_SETF.UIM | NULL
+
+FB_IMUX_INDEX | FOOBAR1_ | -1 | 73 | -1 | 39 | 40 | 41 | -1 | -1 | 134 | -1 | 28 | -1 | -1 | -1 | 14 | 15 | 52 | 35 | -1 | -1 | -1 | -1 | -1 | 17 | -1 | -1 | 47 | -1 | -1 | 31 | 33 | -1 | -1 | 53 | -1 | -1 | -1 | 46 | -1 | 136 | -1 | 37 | -1 | -1 | -1 | 38 | -1 | -1 | 16 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 1 | aq_mreq | 57 | 7 | b_page<4> | NULL | 8 | aq_addr_HI<1> | 22 | 9 | b_page<2> | NULL | 10 | hi_RAM_enable | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 13 | a_page<4> | NULL | 14 | x_page_5/x_page_5_CLKF.UIM | NULL | 15 | a_page<2> | NULL | 20 | a_page<3> | NULL | 23 | aq_iorq | 61
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 27 | aq_wr | 56 | 29 | b_page<5> | NULL | 30 | c_page<5> | NULL | 34 | a_page<5> | NULL | 38 | b_page<3> | NULL
+FB_ORDER_OF_INPUTS | FOOBAR2_ | 39 | aq_addr_HI<0> | 23 | 41 | x_page_5/x_page_5_RSTF.UIM | NULL | 43 | $OpTx$FX_SC$15.UIM | NULL
+
+FB_IMUX_INDEX | FOOBAR2_ | -1 | 73 | -1 | -1 | -1 | -1 | -1 | 43 | 134 | 45 | 28 | -1 | -1 | 49 | 14 | 51 | -1 | -1 | -1 | -1 | 50 | -1 | -1 | 80 | -1 | -1 | -1 | 75 | -1 | 42 | 36 | -1 | -1 | -1 | 48 | -1 | -1 | -1 | 44 | 136 | -1 | 30 | -1 | 17 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+
+
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 7 | aq_addr_LO<0> | 40 | 8 | aq_iorq | 61 | 11 | aq_addr_LO<5> | 27 | 15 | aq_data<0> | 43 | 23 | aq_data<5> | 48
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 26 | aq_addr_LO<6> | 25 | 27 | aq_wr | 56 | 29 | aq_data<3> | 46 | 30 | aq_addr_LO<2> | 36 | 31 | aq_data<1> | 44
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 32 | aq_addr_LO<1> | 63 | 33 | aq_addr_LO<3> | 34 | 34 | aq_addr_LO<7> | 31 | 37 | aq_addr_LO<4> | 32 | 38 | aq_data<7> | 50
+FB_ORDER_OF_INPUTS | FOOBAR3_ | 39 | aq_data<6> | 49 | 41 | aq_data<2> | 45 | 43 | aq_data<4> | 47
+
+FB_IMUX_INDEX | FOOBAR3_ | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 115 | 80 | -1 | -1 | 137 | -1 | -1 | -1 | 105 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | 95 | -1 | -1 | 142 | 75 | -1 | 99 | 123 | 103 | 84 | 129 | 135 | -1 | -1 | 133 | 89 | 93 | -1 | 101 | -1 | 97 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1 | -1
+

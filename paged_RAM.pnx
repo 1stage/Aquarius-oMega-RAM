@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (TTL|LVTTL|LVCMOS2|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xc9500xl" device="XC9572XL" pkg="VQ64" spg="-5"/><pin dir="input" nm="aq_addr_LO&lt;5&gt;" no="27"/><pin dir="input" nm="aq_addr_LO&lt;2&gt;" no="36"/><pin dir="input" nm="aq_addr_LO&lt;1&gt;" no="63"/><pin dir="input" nm="aq_addr_LO&lt;0&gt;" no="40"/><pin dir="input" nm="aq_addr_HI&lt;0&gt;" no="23"/><pin dir="input" nm="aq_addr_HI&lt;1&gt;" no="22"/><pin dir="input" nm="aq_mreq" no="57"/><pin dir="input" nm="aq_data&lt;7&gt;" no="50"/><pin dir="input" nm="aq_data&lt;6&gt;" no="49"/><pin dir="input" nm="aq_data&lt;0&gt;" no="43"/><pin dir="input" nm="aq_iorq" no="61"/><pin dir="input" nm="aq_wr" no="56"/><pin dir="input" nm="aq_addr_LO&lt;3&gt;" no="34"/><pin dir="input" nm="aq_addr_LO&lt;4&gt;" no="32"/><pin dir="input" nm="aq_addr_LO&lt;6&gt;" no="25"/><pin dir="input" nm="aq_addr_LO&lt;7&gt;" no="31"/><pin dir="input" nm="aq_data&lt;1&gt;" no="44"/><pin dir="input" nm="aq_data&lt;2&gt;" no="45"/><pin dir="input" nm="aq_data&lt;3&gt;" no="46"/><pin dir="input" nm="aq_data&lt;4&gt;" no="47"/><pin dir="input" nm="aq_data&lt;5&gt;" no="48"/><pin dir="output" nm="x_page&lt;0&gt;" no="12" sr="fast"/><pin dir="output" nm="x_page&lt;1&gt;" no="11" sr="fast"/><pin dir="output" nm="x_page&lt;2&gt;" no="10" sr="fast"/><pin dir="output" nm="x_page&lt;3&gt;" no="9" sr="fast"/><pin dir="output" nm="x_page&lt;4&gt;" no="8" sr="fast"/><pin dir="output" nm="x_page&lt;5&gt;" no="7" sr="fast"/><pin dir="output" nm="c_ce" no="1" sr="fast"/><pin dir="output" nm="a_ce" no="6" sr="fast"/><pin dir="output" nm="b_ce" no="4" sr="fast"/></ibis>

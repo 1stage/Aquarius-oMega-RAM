@@ -1,0 +1,93 @@
+Release 8.1i - Fit P.20131013
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+ 9-19-2021  9:51AM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The pipe '|'
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  paged_RAM.ngd
+output file: paged_RAM.pad
+Part type:   xc9572xl
+Speed grade: -5
+Package:     vq64
+
+Pinout by Pin Number:
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Pin Number|Signal Name|Pin Usage|Pin Name|Direction|IO Standard|IO Bank Number|{blank}|Slew Rate|Termination|{blank}|Voltage|Constraint|
+P1|c_ce|O|I/O|OUTPUT|||||||||
+P2|TIE||I/O/GTS2||||||||||
+P3|VCC||VCCINT||||||||||
+P4|b_ce|O|I/O|OUTPUT|||||||||
+P5|TIE||I/O/GTS1||||||||||
+P6|a_ce|O|I/O|OUTPUT|||||||||
+P7|x_page<5>|O|I/O|OUTPUT|||||||||
+P8|x_page<4>|O|I/O|OUTPUT|||||||||
+P9|x_page<3>|O|I/O|OUTPUT|||||||||
+P10|x_page<2>|O|I/O|OUTPUT|||||||||
+P11|x_page<1>|O|I/O|OUTPUT|||||||||
+P12|x_page<0>|O|I/O|OUTPUT|||||||||
+P13|TIE||I/O||||||||||
+P14|GND||GND||||||||||
+P15|TIE||I/O/GCK1||||||||||
+P16|TIE||I/O/GCK2||||||||||
+P17|TIE||I/O/GCK3||||||||||
+P18|TIE||I/O||||||||||
+P19|TIE||I/O||||||||||
+P20|TIE||I/O||||||||||
+P21|GND||GND||||||||||
+P22|aq_addr_HI<1>|I|I/O|INPUT|||||||||
+P23|aq_addr_HI<0>|I|I/O|INPUT|||||||||
+P24|TIE||I/O||||||||||
+P25|aq_addr_LO<6>|I|I/O|INPUT|||||||||
+P26|VCC||VCCIO||||||||||
+P27|aq_addr_LO<5>|I|I/O|INPUT|||||||||
+P28|TDI||TDI||||||||||
+P29|TMS||TMS||||||||||
+P30|TCK||TCK||||||||||
+P31|aq_addr_LO<7>|I|I/O|INPUT|||||||||
+P32|aq_addr_LO<4>|I|I/O|INPUT|||||||||
+P33|TIE||I/O||||||||||
+P34|aq_addr_LO<3>|I|I/O|INPUT|||||||||
+P35|TIE||I/O||||||||||
+P36|aq_addr_LO<2>|I|I/O|INPUT|||||||||
+P37|VCC||VCCINT||||||||||
+P38|TIE||I/O||||||||||
+P39|TIE||I/O||||||||||
+P40|aq_addr_LO<0>|I|I/O|INPUT|||||||||
+P41|GND||GND||||||||||
+P42|TIE||I/O||||||||||
+P43|aq_data<0>|I|I/O|INPUT|||||||||
+P44|aq_data<1>|I|I/O|INPUT|||||||||
+P45|aq_data<2>|I|I/O|INPUT|||||||||
+P46|aq_data<3>|I|I/O|INPUT|||||||||
+P47|aq_data<4>|I|I/O|INPUT|||||||||
+P48|aq_data<5>|I|I/O|INPUT|||||||||
+P49|aq_data<6>|I|I/O|INPUT|||||||||
+P50|aq_data<7>|I|I/O|INPUT|||||||||
+P51|TIE||I/O||||||||||
+P52|TIE||I/O||||||||||
+P53|TDO||TDO||||||||||
+P54|GND||GND||||||||||
+P55|VCC||VCCIO||||||||||
+P56|aq_wr|I|I/O|INPUT|||||||||
+P57|aq_mreq|I|I/O|INPUT|||||||||
+P58|TIE||I/O||||||||||
+P59|TIE||I/O||||||||||
+P60|TIE||I/O||||||||||
+P61|aq_iorq|I|I/O|INPUT|||||||||
+P62|TIE||I/O||||||||||
+P63|aq_addr_LO<1>|I|I/O|INPUT|||||||||
+P64|TIE||I/O/GSR||||||||||
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+

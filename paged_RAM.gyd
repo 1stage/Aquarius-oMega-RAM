@@ -1,0 +1,53 @@
+Pin Freeze File:  version P.20131013
+
+9572XL64 XC9572XL-5-VQ64
+aq_addr_HI<0> S:PIN23
+aq_addr_HI<1> S:PIN22
+aq_addr_LO<0> S:PIN40
+aq_addr_LO<1> S:PIN63
+aq_addr_LO<2> S:PIN36
+aq_addr_LO<3> S:PIN34
+aq_addr_LO<4> S:PIN32
+aq_addr_LO<5> S:PIN27
+aq_addr_LO<6> S:PIN25
+aq_addr_LO<7> S:PIN31
+aq_data<0> S:PIN43
+aq_data<1> S:PIN44
+aq_data<2> S:PIN45
+aq_data<3> S:PIN46
+aq_data<4> S:PIN47
+aq_data<5> S:PIN48
+aq_data<6> S:PIN49
+aq_data<7> S:PIN50
+aq_iorq S:PIN61
+aq_mreq S:PIN57
+aq_wr S:PIN56
+a_ce S:PIN6
+b_ce S:PIN4
+c_ce S:PIN1
+x_page<0> S:PIN12
+x_page<1> S:PIN11
+x_page<2> S:PIN10
+x_page<3> S:PIN9
+x_page<4> S:PIN8
+x_page<5> S:PIN7
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_2 x_page_4 x_page_0
+PARTITION FB1_5 x_page_3 x_page_2
+PARTITION FB1_8 x_page_1
+PARTITION FB1_15 x_page_5/x_page_5_CLKF x_page_1/x_page_1_SETF x_page_0/x_page_0_SETF $OpTx$FX_SC$15
+		
+PARTITION FB2_10 c_ce_OBUF hi_RAM_enable b_ce_OBUF x_page_5/x_page_5_RSTF
+		 x_page_4/x_page_4_SETF a_ce_OBUF x_page_3/x_page_3_SETF x_page_5
+		 x_page_2/x_page_2_SETF
+PARTITION FB3_1 c_page<5> c_page<4> c_page<3> c_page<2>
+		 c_page<1> c_page<0> b_page<5> b_page<4>
+		 b_page<3> b_page<2> b_page<1> b_page<0>
+		 a_page<5> a_page<4> a_page<3> a_page<2>
+		 a_page<1> a_page<0>
+
+
