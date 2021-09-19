@@ -5,7 +5,7 @@
 <design name='paged_RAM'/>
 <rptdir name='paged_RAM'/>
 <xilinx path='C:/Xilinx/14.7/ISE_DS/ISE;'/>
-<projDir path='C:\Users\sph\oMegaRAM'/>
+<projDir path='C:\Users\sph\OneDrive\Documents\GitHub\Aquarius-oMega-RAM'/>
 <xslDir path='chipviewer/data/xsl'/>
 <fileDir path='/chipviewer/data/html'/>
 <dataFile file='index.htm'/>

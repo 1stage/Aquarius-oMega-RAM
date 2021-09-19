@@ -1,8 +1,8 @@
 INTSTYLE=impact
-INFILE=C:\Users\sph\oMegaRAM\impact.xsl
-OUTFILE=C:\Users\sph\oMegaRAM\impact.xsl
+INFILE=C:\Users\sph\OneDrive\Documents\GitHub\Aquarius-oMega-RAM\impact.xsl
+OUTFILE=C:\Users\sph\OneDrive\Documents\GitHub\Aquarius-oMega-RAM\impact.xsl
 FAMILY=Single
 PART=Single
-WORKINGDIR=C:\Users\sph\oMegaRAM
+WORKINGDIR=C:\Users\sph\OneDrive\Documents\GitHub\Aquarius-oMega-RAM
 LICENSE=iMPACT
 USER_INFO=iMPACT

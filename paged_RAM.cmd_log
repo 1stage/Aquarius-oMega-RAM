@@ -53,3 +53,9 @@ cpldfit -intstyle ise -p xc9572xl-5-VQ64 -ofmt vhdl -optimize speed -htmlrpt -lo
 XSLTProcess paged_RAM_build.xml 
 tsim -intstyle ise paged_RAM paged_RAM.nga 
 hprep6 -s IEEE1149 -n paged_RAM -i paged_RAM 
+xst -intstyle ise -ifn "C:/Users/sph/OneDrive/Documents/GitHub/Aquarius-oMega-RAM/paged_RAM.xst" -ofn "C:/Users/sph/OneDrive/Documents/GitHub/Aquarius-oMega-RAM/paged_RAM.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc paged_RAM.ucf -p xc9572xl-VQ64-5 paged_RAM.ngc paged_RAM.ngd  
+cpldfit -intstyle ise -p xc9572xl-5-VQ64 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper paged_RAM.ngd 
+XSLTProcess paged_RAM_build.xml 
+tsim -intstyle ise paged_RAM paged_RAM.nga 
+hprep6 -s IEEE1149 -n paged_RAM -i paged_RAM 

@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Sun Sep 19 09:51:32 2021">
+<application name="pn" timeStamp="Sun Sep 19 10:10:17 2021">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="D3BF0498C53645C5A5EAD837C6575C88" type="project"/>
 <property name="ProjectIteration" value="0" type="project"/>
-<property name="ProjectFile" value="C:/Users/sph/oMegaRAM/oMegaRAM.xise" type="project"/>
+<property name="ProjectFile" value="C:/Users/sph/OneDrive/Documents/GitHub/Aquarius-oMega-RAM/oMegaRAM.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2021-09-01T21:40:00" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">

@@ -23,7 +23,7 @@ upper 2 bits set the bank, and the lower 6 bits set the page:
    - set  HI RAM page $C0 - $FF
 
 Version History
-19 SEP 2021  v0.4   - Corrected HI RAM toggling
+19 SEP 2021  v0.4   - Corrected HI RAM toggling???
 24 AUG 2021  v0.3   - Added Aquarius WR signal to the IORQ logic
 23 AUG 2021  v0.2   - Added HI RAM v Cartridge conflict logic.
 18 AUG 2021  v0.1   - Initial version
